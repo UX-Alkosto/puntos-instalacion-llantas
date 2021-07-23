@@ -1,0 +1,310 @@
+@import url("https://cdn.jsdelivr.net/gh/ux-alkosto/icons/style.min.css");
+@import "./@{themeName}/variables.less";
+@import "./common.less";
+@import "./select.less";
+
+#puntos-instalacion-map {
+	display: none;
+
+	@media screen and (min-width: @mobile-breakpoint) {
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+	button.gm-ui-hover-effect {
+		display: none !important;
+	}
+}
+
+.puntos-instalacion {
+	font-family: var(--puntos-instalacion-font-family);
+	padding: 0 16px;
+	overflow: hidden;
+
+	@media screen and (min-width: @mobile-breakpoint) {
+		padding: 0 50px;
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+
+	&__container {
+		display: grid;
+		grid-template-areas: "sidebar";
+		grid-template-columns: 1fr;
+		margin-bottom: 60px;
+		min-height: 390px;
+		width: 100%;
+
+		@media screen and (min-width: @mobile-breakpoint) {
+			grid-template-areas: "sidebar _ map";
+			grid-template-columns: minmax(auto, 465px) 28px minmax(50%, auto);
+		}
+	}
+
+	&__filters {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		margin: 40px 0px;
+
+		[class*="puntos-instalacion__filters"] {
+			flex: 1;
+			margin: 10px 0;
+		}
+
+		@media screen and (min-width: @mobile-breakpoint) {
+			flex-direction: row;
+
+			[class*="puntos-instalacion__filters"] {
+				margin: 10px;
+			}
+		}
+	}
+
+	&__map {
+		display: none;
+
+		@media screen and (min-width: @mobile-breakpoint) {
+			border: 1px solid var(--puntos-instalacion-gray-2);
+			grid-area: map;
+			height: 390px;
+		}
+
+		&__info-window {
+			font-family: var(--puntos-instalacion-font-family);
+			padding-right: 16px;
+
+			h4 {
+				color: var(--puntos-instalacion-first-color);
+				margin: 0 0 8px;
+				font-size: 16px;
+				font-weight: 600;
+			}
+
+			strong {
+				color: var(--puntos-instalacion-gray-5);
+				line-height: 26px;
+			}
+
+			p {
+				font-weight: 500;
+				margin: 0 0 8px;
+				a {
+					color: var(--puntos-instalacion-second-color);
+					text-decoration: underline;
+				}
+				i {
+					color: var(--puntos-instalacion-second-color);
+					font-weight: 600;
+					margin-right: 3px;
+				}
+			}
+
+			&__close {
+				background-color: transparent;
+				border: 0;
+				cursor: pointer;
+				position: absolute;
+				right: 0;
+				top: 8px;
+				span {
+					color: var(--puntos-instalacion-first-color);
+					font-size: 20px;
+					pointer-events: none;
+				}
+			}
+		}
+	}
+
+	&__menu {
+		grid-area: sidebar;
+		position: relative;
+
+		@media screen and (min-width: @mobile-breakpoint) {
+			max-height: 390px;
+			.scroll();
+		}
+
+		&__item {
+			overflow: hidden;
+			width: 100%;
+
+			&__body {
+				background: var(--puntos-instalacion-gray-1);
+				background: linear-gradient(
+					0deg,
+					fade(@gray-1, 100%) 0%,
+					fade(@white, 100%) 100%
+				);
+				color: var(--puntos-instalacion-gray-5);
+				height: 0;
+				max-height: 0;
+				padding: 0;
+				transition: all 0.25s ease-in-out;
+
+				.address,
+				.cell,
+				.contact-phones,
+				.email,
+				.how-to-get,
+				.message,
+				.phone,
+				.schedule {
+					display: flex;
+				}
+
+				.contact-phones {
+					gap: 1em;
+					margin-bottom: 16px;
+					@media screen and (max-width: @mobile-breakpoint) {
+						flex-wrap: wrap;
+					}
+
+					> * {
+						width: 100%;
+
+						@media screen and (min-width: @mobile-breakpoint) {
+							width: 55%;
+							& ~ * {
+								width: 45%;
+							}
+						}
+					}
+				}
+
+				.address,
+				.cell,
+				.email,
+				.how-to-get,
+				.phone,
+				.schedule {
+					a {
+						color: var(--puntos-instalacion-second-color);
+						display: inline-block;
+						line-height: 26px;
+						margin-right: 8px;
+						text-decoration: underline;
+					}
+
+					p {
+						font-size: 14px;
+						margin: 0 0 1em;
+
+						&:first-child {
+							padding-left: 0;
+						}
+
+						&:not(:last-child) {
+							border-right: solid thin var(--puntos-instalacion-gray-2);
+						}
+
+						i {
+							color: var(--puntos-instalacion-second-color);
+							font-size: 20px;
+							font-weight: 500;
+							margin-right: 5px;
+						}
+
+						> strong {
+							align-items: center;
+							display: flex;
+							margin: 10px 0px;
+
+							i {
+								color: var(--puntos-instalacion-icon-color);
+								font-size: 20px;
+								font-weight: 500;
+								margin-right: 5px;
+							}
+						}
+					}
+				}
+				.cell,
+				.phone {
+					p {
+						margin: 0;
+					}
+				}
+				.message {
+					background-color: var(--puntos-instalacion-bg-message);
+					border: 1px solid var(--puntos-instalacion-border-color-message);
+					margin-bottom: 1em;
+					padding: .5em;
+					a {
+						color: var(--puntos-instalacion-second-color);
+						text-decoration: underline;
+					}
+					p {
+						color: var(--puntos-instalacion-text-message);
+						font-size: 12px;
+						margin: 0;
+					}
+				}
+				.schedule {
+					span {
+						display: block;
+						line-height: 26px;
+						margin-right: 8px;
+					}
+				}
+			}
+
+			input {
+				opacity: 0;
+				position: absolute;
+				z-index: -1;
+
+				&:checked {
+					~ .puntos-instalacion__menu__item__body {
+						height: auto;
+						margin: 0.5em 0 0;
+						max-height: 100vh;
+						padding: 1em;
+					}
+				}
+			}
+
+			label {
+				align-items: center;
+				background-color: var(--puntos-instalacion-white);
+				border-bottom: 1px solid var(--puntos-instalacion-gray-3);
+				color: var(--puntos-instalacion-first-color);
+				cursor: pointer;
+				display: flex;
+				font-size: 14px;
+				font-weight: bold;
+				justify-content: space-between;
+				line-height: 26px;
+				padding: 0.5em;
+				position: relative;
+				text-transform: uppercase;
+
+				> span {
+					bottom: 0;
+					font-size: 22px;
+					line-height: 32px;
+					width: 24px;
+				}
+			}
+		}
+	}
+
+	&__title {
+		color: var(--puntos-instalacion-gray-5);
+		font-size: 24px;
+		font-weight: bold;
+	}
+}
+.msje-localiza {
+	color: var(--puntos-instalacion-gray-5);
+	display: none;
+	font-size: 14px;
+	font-weight: 500;
+	margin: 30px 0px;
+	@media screen and (min-width: @mobile-breakpoint) {
+		display: block;
+	}
+}

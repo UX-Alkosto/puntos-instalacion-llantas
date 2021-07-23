@@ -1,0 +1,35 @@
+:root {
+	--puntos-instalacion-font-family: @font-family;
+	--puntos-instalacion-first-color: @brand-first-color;
+	--puntos-instalacion-second-color: @brand-second-color;
+	--puntos-instalacion-third-color: @brand-third-color;
+	--puntos-instalacion-fourth-color: @brand-fourth-color;
+	--puntos-instalacion-black: @black;
+	--puntos-instalacion-gray-1: @gray-1;
+	--puntos-instalacion-gray-2: @gray-2;
+	--puntos-instalacion-gray-3: @gray-3;
+	--puntos-instalacion-gray-4: @gray-4;
+	--puntos-instalacion-gray-5: @gray-5;
+	--puntos-instalacion-gray-6: @gray-6;
+	--puntos-instalacion-white: @white;
+	--puntos-instalacion-breakpoint: @mobile-breakpoint;
+	--puntos-instalacion-icon-color: @icon-color;
+	--puntos-instalacion-color-arrow-down: @color-arrow-down;
+	--puntos-instalacion-bg-message: fade(@color-recuadro-mensaje, 12);
+	--puntos-instalacion-border-color-message: fade(@color-recuadro-mensaje, 8);
+	--puntos-instalacion-text-message: @color-texto-recuadro-mensaje;
+}
+
+.scroll() {
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	&::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: rgba(@black, .5);
+		border-radius: 10px;
+	}
+}

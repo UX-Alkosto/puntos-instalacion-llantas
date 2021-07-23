@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puntos de instalación llantas</title>
+    <link rel="stylesheet" href="../dist/alkosto/css/instalacion.css">
+</head>
+<body>
+    <div class="puntos-instalacion">
+        <h2 class="puntos-instalacion__title">Puntos de Instalación de Llantas</h2>
+        <p>Ahora tenemos <strong>9 PUNTOS NUEVOS</strong>para la instalación de tus llantas:</p>
+        <div class="puntos-instalacion__filters">
+            <div class="puntos-instalacion__filters__departamento">
+                <label for="departamento">Departamento</label>
+                <select name="departamento" id="departamento" data-custom-select="true"></select>
+            </div>
+        </div>
+        <p class="msje-localiza">Selecciona en la parte de arriba un departamento que se encuentra disponible para la instalación de tus llantas.</p>
+        <div class="puntos-instalacion__container">
+            <div class="puntos-instalacion__menu"></div>
+            <div class="puntos-instalacion__map">
+                <div id="puntos-instalacion-map"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta" defer></script> -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta&key=AIzaSyACAMxxFSoeTgM3KPi0y851lA4nYKihlmI" defer></script>
+    <script type="module" crossorigin="anonymous"
+        src="../dist/common/js/instalacion.js"></script>
+    <script>
+        const appConfig = {
+            jsonFile : '../dist/alkosto/json/puntos-instalacion.json',
+            site : 'alkosto'
+        }
+    </script>
+</body>
+</html>
