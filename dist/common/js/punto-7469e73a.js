@@ -1,2 +1,2 @@
-/*! puntos-instalacion-llantas - release: 1.0.0 */
+/*! puntos-instalacion-llantas - release: 1.0.1 */
 class i{constructor({address:i="",areaCode:s="",cell:e=[],city:t="",coordinates:h={},email:a="",hours:c=[],id:o="",name:r="",phone:d=[],schedule:l=[],viewMap:n=""}){this.address=i,this.areaCode=s,this.cellphone=e,this.city=t,this.coordinates=h,this.email=a,this.hours=c,this.id=o,this.isActive=!1,this.name=r,this.phone=d,this.schedule=l,this.map=n}get active(){return this.isActive}set active(i){this.isActive=i}}export{i as PuntoInstalacion};
