@@ -11,6 +11,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"1",
             "viewMap":"https://www.google.com/maps/place/Ak+68+%2372,+Bogot%C3%A1/@4.6309059,-74.1235352,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9bff03408d47:0xcc727bace53ff0a4!8m2!3d4.6309006!4d-74.1213465?hl=es"
         },
         "bogota-02":{
@@ -24,6 +25,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"1",
             "viewMap": "https://www.google.com/maps/place/Cra.+69+%23170-15,+Bogot%C3%A1/@4.7601543,-74.0656441,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f85ba3f3113a3:0xbec9389a26b3039c!8m2!3d4.760149!4d-74.0634554?hl=es"
         },
         "bogota-03":{
@@ -37,6 +39,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"1",
             "viewMap":"https://www.google.com/maps/place/Ak+30+%2310-25,+Bogot%C3%A1/@4.6106579,-74.0970895,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f996b892e3def:0xf51bd68185717a82!8m2!3d4.6106526!4d-74.0949008?hl=es"
         },
         "bogota-04":{
@@ -50,6 +53,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"1",
             "viewMap":"https://www.google.com/maps/place/Av.+Boyac%C3%A1+%23%2315-98,+Bogot%C3%A1,+Cundinamarca/@4.6472333,-74.1308688,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9c0b37d11f43:0x24a032b60b86fa16!8m2!3d4.647228!4d-74.1286801?hl=es"
         },
         "bogota-05":{
@@ -63,6 +67,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"1",
             "viewMap":"https://www.google.com/maps/place/Dg.+45c+Sur,+Rafael+Uribe+Uribe,+Bogot%C3%A1/@4.5700804,-74.1233296,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f98caff6132f5:0x4b751ba6b10f133!8m2!3d4.5700751!4d-74.1211409?hl=es"
         },
         "barranquilla-01":{
@@ -76,6 +81,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"5",
             "viewMap":"https://www.google.com/maps/place/Cl.+98+%23%23+51B-91,+Barranquilla,+Atl%C3%A1ntico/@11.0120043,-74.8302784,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42c52a5f03f8f:0xf4b4b5a5c6c7bda1!8m2!3d11.011999!4d-74.8280897?hl=es"
         },
         "bucaramanga-01":{
@@ -89,6 +95,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"7",
             "viewMap":"https://www.google.com/maps/place/Porta+Giron/@7.0656606,-73.1660999,17z/data=!3m1!4b1!4m5!3m4!1s0x8e683e93fece34e3:0x9453e054bc3eb432!8m2!3d7.0656553!4d-73.1639112?hl=es"
         },
         "cali-01":{
@@ -102,6 +109,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"2",
             "viewMap":"https://www.google.com/maps/place/Cl.+13+%23%23+80+-+187,+Cali,+Valle+del+Cauca/@3.3852413,-76.5400162,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a15d5051f7a3:0x7e453e1e2579d5f9!8m2!3d3.3852359!4d-76.5378275?hl=es"
         },
         "cartagena-01":{
@@ -119,6 +127,7 @@
             "cell": [
                 "3183519648"
             ],
+            "areaCode":"5",
             "viewMap":"https://www.google.com/maps/search/Av.+El+Lago,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar/@10.4130813,-75.5307024,17z/data=!3m1!4b1?hl=es"
         },
         "cucuta-01":{
@@ -133,6 +142,7 @@
             "phone": [
                 "55018692"
             ],
+            "areaCode":"7",
             "cell": [
                 "3006618694"
             ],
@@ -150,6 +160,7 @@
             "phone": [
                 "7651210"
             ],
+            "areaCode":"8",
             "cell": [
                 "3104149206"
             ],
@@ -167,6 +178,7 @@
             "phone": [
                 ""
             ],
+            "areaCode":"1",
             "cell": [
                 "3134696600"
             ],
@@ -184,6 +196,7 @@
             "phone": [
                 ""
             ],
+            "areaCode":"8",
             "cell": [
                 "312 4039413"
             ],
@@ -201,6 +214,7 @@
             "phone": [
                 "3229516"
             ],
+            "areaCode":"4",
             "cell": [
                 "3137168485"
             ],
@@ -218,6 +232,7 @@
             "phone": [
                 "4815365"
             ],
+            "areaCode":"4",
             "cell": [
                 "3217993714"
             ],
@@ -235,6 +250,7 @@
             "phone": [
                 ""
             ],
+            "areaCode":"4",
             "cell": [
                 "3232213453"
             ],
@@ -251,6 +267,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"6",
             "viewMap":"https://www.google.com/maps/place/Av.+de+las+Am%C3%A9ricas+%2346,+Pereira,+Risaralda/@4.8057132,-75.7171522,17z/data=!3m1!4b1!4m5!3m4!1s0x8e387df576816edf:0x872df353d725140!8m2!3d4.8057079!4d-75.7149635?hl=es"
         },
         "pasto-01":{
@@ -264,6 +281,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"2",
             "viewMap":"https://www.google.com/maps/search/Carrera+13+%23no.+20,+T%C3%BAquerres,+Nari%C3%B1o/@1.0859787,-77.6205867,17z/data=!3m1!4b1?hl=es"
         },
         "sincelejo-01":{
@@ -277,6 +295,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"5",
             "viewMap":"https://www.google.com/maps/search/Carrera+28+%2325b-27,+Sincelejo,+Sucre/@9.3027125,-75.38805,16z/data=!3m1!4b1?hl=es"
         },
         "valledupar-01":{
@@ -291,6 +310,7 @@
             "phone": [
                 ""
             ],
+            "areaCode":"5",
             "cell": [
                 "3102097884"
             ],
@@ -307,6 +327,7 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"8",
             "viewMap":"https://www.google.com/maps/place/Cl.+31+%23%2331-95,+Villavicencio,+Meta/@4.1442358,-73.6356476,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3e2de104b6dd35:0x1d6d37468a950c30!8m2!3d4.1442305!4d-73.6334589?hl=es"
         },
         "yopal-01":{
@@ -320,10 +341,43 @@
             "phone": [
                 "4073033"
             ],
+            "areaCode":"8",
             "viewMap":"https://www.google.com/maps/place/Cl.+24+%2328-72,+Yopal,+Casanare/@5.3398421,-72.3886698,17z/data=!3m1!4b1!4m5!3m4!1s0x8e6b0dac5900d895:0xe6fbc05b6c20bc3c!8m2!3d5.3398368!4d-72.3864811?hl=es"
         }
     },
     "departments": {
+        "todos":{
+            "name": "Todos los departamentos",
+            "cities":{
+                "todos": {
+                    "areaCode":"",
+                    "name": "Todos",
+                    "puntos":[
+                        "bogota-01",
+                        "bogota-02",
+                        "bogota-03",
+                        "bogota-04",
+                        "bogota-05",
+                        "bucaramanga-01",
+                        "cali-01",
+                        "cartagena-01",
+                        "cucuta-01",
+                        "barranquilla-01",
+                        "duitama-01",
+                        "ibague-01",
+                        "medellin-01",
+                        "medellin-02",
+                        "medellin-03",
+                        "pasto-01",
+                        "pereira-01",
+                        "sincelejo-01",
+                        "valledupar-01",
+                        "villavicencio-01",
+                        "yopal-01"
+                    ]
+                }
+            }
+        },
         "antioquia": {
             "name": "Antioquia",
             "cities": {

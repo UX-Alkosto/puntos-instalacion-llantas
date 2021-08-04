@@ -61,7 +61,7 @@ if (appConfig.jsonFile !== undefined) {
 				Object.entries(departments).map(departmentData => {
 					const department = departmentData[1];
 					const value = departmentData[0];
-					const option = new Option(department.name, value);
+					const option = new Option(department.name, value, (value=="todos")?true:false, (value=="todos")?true:false);
 					return departmentSelect.append(option);
 				});
 				departmentSelect.refresh();
@@ -86,7 +86,6 @@ if (appConfig.jsonFile !== undefined) {
 								const puntoInstalacion = {
 									city: city,
 									code: code,
-									areaCode: cityData[1].areaCode,
 								};
 
 								return servicePointsCodes.push(puntoInstalacion);
@@ -99,6 +98,7 @@ if (appConfig.jsonFile !== undefined) {
 
 					servicePointsCodes = []; // Reset service array
 				});
+				departmentSelect.dispatchEvent(new Event("change"));
 			}
 
 		});
@@ -109,10 +109,9 @@ async function getServicePoints({ servicePointsCodes, PuntosInstalacion }) {
 	const PuntoInstalacion = await import("./punto.js").then(Module => Module.PuntoInstalacion),
 		_servicePointsCodes = {};
 
-	servicePointsCodes.map(({ areaCode, city, code }) => _servicePointsCodes[code] = { "areaCode": areaCode, "code": code, "city": city });
-	return Object.values(_servicePointsCodes).map(({ areaCode, city, code }) => {
+	servicePointsCodes.map(({ city, code }) => _servicePointsCodes[code] = { "code": code, "city": city });
+	return Object.values(_servicePointsCodes).map(({ city, code }) => {
 		let servicePoint = {
-			areaCode: areaCode,
 			city: city,
 			coordinates: {
 				lat: PuntosInstalacion[code].lat,
