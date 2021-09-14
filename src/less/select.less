@@ -30,6 +30,9 @@
         outline: none;
         position: relative;
         width: 100%;
+        @media screen and (min-width: @mobile-breakpoint) {
+            width: 35%;
+        }
 
         &.disabled {
             &>.custom-select {

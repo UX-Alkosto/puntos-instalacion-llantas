@@ -1,46 +1,56 @@
 {
     "puntosInstalacion": {
         "bogota-01":{
-            "name":"Punto de servicio, Bogotá Av 68",
+            "name":"Alkosto Av 68",
             "address": "Av Cr 68 No. 72 - 43",
             "lat": "4.6309059",
             "lng": "-74.1235352",
             "schedule": [
-                "Lun a Dom de 7:00 a.m - 9:00 p.m"
+                "Lun a Vie de 8:00 a.m - 7:00 p.m",
+                "Dom y Fes de 9:00 a.m - 5:00 p.m"
             ],
             "phone": [
-                "4073033"
+                "4376868",
+                "4073033",
+                "3649734",
+                "018000111448",
+                "018000180222"
             ],
             "areaCode":"1",
             "viewMap":"https://www.google.com/maps/place/Ak+68+%2372,+Bogot%C3%A1/@4.6309059,-74.1235352,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9bff03408d47:0xcc727bace53ff0a4!8m2!3d4.6309006!4d-74.1213465?hl=es"
         },
         "bogota-02":{
-            "name":"Punto de servicio, Bogotá Calle 170",
+            "name":"Alkosto Calle 170",
             "address": "Cr 69 No. 170 - 15",
             "lat": "4.7601543",
             "lng": "-74.0656441",
             "schedule": [
-                "Lun a Dom de 7:00 a.m - 9:00 p.m"
+                "Lun a Vie de 8:00 a.m - 7:00 p.m",
+                "Dom a Fes de 9:00 a.m - 5:00 p.m"
             ],
             "phone": [
-                "4073033"
+                "4073033",
+                "3649734",
+                "018000111448",
+                "018000180222"
             ],
             "areaCode":"1",
             "viewMap": "https://www.google.com/maps/place/Cra.+69+%23170-15,+Bogot%C3%A1/@4.7601543,-74.0656441,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f85ba3f3113a3:0xbec9389a26b3039c!8m2!3d4.760149!4d-74.0634554?hl=es"
         },
         "bogota-03":{
-            "name":"Punto de servicio, Bogotá Carrera 30",
-            "address": "Cr 30 No. 10 - 25",
-            "lat": "4.6106579",
-            "lng": "-74.0970895",
+            "name":"Alkosto Carrera 30, Master Speed",
+            "address": "Cl 11 No. 31 - 08",
+            "lat": "4.6121732",
+            "lng": "-74.0973194",
             "schedule": [
-                "Lun a Dom de 7:00 a.m - 9:00 p.m"
+                "Lun a Sab de 8:00 a.m - 7:00 p.m",
+                "Dom y Fes de 9:00 a.m - 5:00 p.m"
             ],
             "phone": [
-                "4073033"
+                "6940489"
             ],
             "areaCode":"1",
-            "viewMap":"https://www.google.com/maps/place/Ak+30+%2310-25,+Bogot%C3%A1/@4.6106579,-74.0970895,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f996b892e3def:0xf51bd68185717a82!8m2!3d4.6106526!4d-74.0949008?hl=es"
+            "viewMap":"https://www.google.com/maps/place/Cl.+11+%2331-08,+Bogot%C3%A1/@4.6121732,-74.0973194,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f996bfdb1c85d:0x484214b938ae2261!8m2!3d4.6121679!4d-74.0951307"
         },
         "bogota-04":{
             "name":"Punto de servicio, Bogotá El Edén",
@@ -48,81 +58,183 @@
             "lat": "4.6472333",
             "lng": "-74.1308688",
             "schedule": [
-                "Lun a Dom de 7:00 a.m - 9:00 p.m"
+                "Lun a Vie de 8:00 a.m - 7:00 p.m",
+                "Dom y Fes de 9:00 a.m - 5:00 p.m"
             ],
             "phone": [
-                "4073033"
+                "4073033",
+                "3649734",
+                "018000111448",
+                "018000180222"
             ],
             "areaCode":"1",
             "viewMap":"https://www.google.com/maps/place/Av.+Boyac%C3%A1+%23%2315-98,+Bogot%C3%A1,+Cundinamarca/@4.6472333,-74.1308688,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9c0b37d11f43:0x24a032b60b86fa16!8m2!3d4.647228!4d-74.1286801?hl=es"
         },
         "bogota-05":{
-            "name":"Punto de servicio, Bogotá Venecia",
-            "address": "Av 45C sur No. 51 - 90",
-            "lat": "4.5700804",
-            "lng": "-74.1233296",
+            "name":"San Andresito",
+            "address": "Cr 38 No 6 – 15",
+            "lat": "4.5515681",
+            "lng": "-74.0918254",
             "schedule": [
-                "Lun a Dom de 7:00 a.m - 9:00 p.m"
+                "Lun a Vie de 8:00 a.m - 5:00 p.m",
+                "Sab de 9:00 a.m - 4:00 p.m"
             ],
             "phone": [
-                "4073033"
+                "3282105",
+                "5243719"
             ],
             "areaCode":"1",
-            "viewMap":"https://www.google.com/maps/place/Dg.+45c+Sur,+Rafael+Uribe+Uribe,+Bogot%C3%A1/@4.5700804,-74.1233296,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f98caff6132f5:0x4b751ba6b10f133!8m2!3d4.5700751!4d-74.1211409?hl=es"
+            "viewMap":"https://www.google.com/maps/place/Cl.+38+Sur+%236-15,+Bogot%C3%A1/@4.5515681,-74.0918254,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f989cba4f1671:0xe733caade4f9adeb!8m2!3d4.5515628!4d-74.0896367"
+        },
+        "bogota-06":{
+            "name":"Alkosto Carrera 30",
+            "address": "Cr 30 No. 10-25",
+            "lat": "4.6106873",
+            "lng": "-74.0973537",
+            "schedule": [
+                "Lun a Sab de 8:00 a.m - 7:00 p.m",
+                "Dom y Fes de 9:00 a.m - 5:00 p.m"
+            ],
+            "phone": [
+                "4073033",
+                "3649734",
+                "018000111448",
+                "018000180222"
+            ],
+            "areaCode":"1",
+            "viewMap":"https://www.google.com/maps/place/Ak+30+%2310-25,+Bogot%C3%A1,+Cundinamarca/@4.6106873,-74.0973537,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f996b8e8960f1:0xcdbe8f3db1495a59!8m2!3d4.610682!4d-74.095165"
+        },
+        "bogota-07":{
+            "name":"Calle 72",
+            "address": "Av Calle 72 No. 21 – 14",
+            "lat": "4.6620852",
+            "lng": "-74.0675192",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m - 5:00 p.m",
+                "Sab de 8:00 a.m - 1:00 p.m"
+            ],
+            "phone": [
+                "3282105"
+            ],
+            "cell":[
+                "3208165744"
+            ],
+            "areaCode":"1",
+            "viewMap":"https://www.google.com/maps/place/Cl.+72+%2321-14,+Bogot%C3%A1/@4.6620852,-74.0675192,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9a5757f2f63f:0xa5db3a882a38e335!8m2!3d4.6620799!4d-74.0653305"
+        },
+        "bogota-08":{
+            "name":"Carvajal",
+            "address": "Av Boyacá No 39 - 92 Sur",
+            "lat": "4.5995737",
+            "lng": "-74.150333",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m - 5:00 p.m",
+                "Sab de 8:00 a.m - 1:00 p.m"
+            ],
+            "phone": [
+                "3282105",
+                "4530641"
+            ],
+            "cell":[
+                "3203330951"
+            ],
+            "areaCode":"1",
+            "viewMap":"https://www.google.com/maps/search/Av+Boyac%C3%A1+No+39+-+92+Sur/@4.5995737,-74.150333,15z/data=!3m1!4b1"
+        },
+        "bogota-09":{
+            "name":"Paloquemao",
+            "address": "Cl 15 No 25 – 35",
+            "lat": "4.6120874",
+            "lng": "-74.0900629",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m - 5:00 p.m",
+                "Sab de 9:00 a.m - 4:00 p.m"
+            ],
+            "phone": [
+                "3282105",
+                "2530050"
+            ],
+            "cell":[
+                "3152352300"
+            ],
+            "areaCode":"1",
+            "viewMap":"https://www.google.com/maps/place/Cl.+15+%2325-35,+Los+M%C3%A1rtires,+Bogot%C3%A1/@4.6120874,-74.0900629,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f99721d719607:0x8951e8f0f56141c2!8m2!3d4.6120821!4d-74.0878742"
         },
         "barranquilla-01":{
-            "name":"Punto de servicio, Barranquilla",
+            "name":"Alkosto Barranquilla",
             "address": "Cl 98 No. 51B - 91, Sector Buenavista",
             "lat": "11.0120043",
             "lng": "-74.8302784",
             "schedule": [
-                "Lun a Dom de 8:00 a.m - 9:00 p.m"
-            ],
-            "phone": [
-                "4073033"
+                "Lun a Dom de 8:00 a.m - 7:00 p.m",
+                "Dom y Fes de 9:00 a.m - 5:00 p.m"
             ],
             "areaCode":"5",
             "viewMap":"https://www.google.com/maps/place/Cl.+98+%23%23+51B-91,+Barranquilla,+Atl%C3%A1ntico/@11.0120043,-74.8302784,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42c52a5f03f8f:0xf4b4b5a5c6c7bda1!8m2!3d11.011999!4d-74.8280897?hl=es"
         },
+        "barranquilla-02":{
+            "name":"Punto de instalación Prado",
+            "address": "Cr 44 No. 74 - 52",
+            "lat": "10.9942337",
+            "lng": "-74.8114502",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m - 5:00 p.m",
+                "Sab de 8:00 a.m - 1:00 p.m"
+            ],
+            "phone": [
+                "3282105",
+                "6661212"
+            ],
+            "cell":[
+                "3156126452"
+            ],
+            "areaCode":"7",
+            "viewMap":"https://www.google.com/maps/place/Cra.+44+%23%2374-52,+Barranquilla,+Atl%C3%A1ntico/@10.9942337,-74.8114502,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42d0c1b2f8b3f:0x4ea826416801e7b0!8m2!3d10.9942284!4d-74.8092615"
+        },
         "bucaramanga-01":{
-            "name":"Punto de servicio, Bucaramanga",
+            "name":"Alkosto Bucaramanga",
             "address": "Anillo Vial Km 2.5 Girón, Bucaramanga",
             "lat": "7.0656606",
             "lng": "-73.1660999",
             "schedule": [
-                "Lun a Dom de 7:00 a.m - 9:00 p.m"
+                "Lun a Vie de 8:00 a.m - 7:00 p.m",
+                "Dom y Fes de 9:00 a.m - 5:00 p.m"
             ],
             "phone": [
-                "4073033"
+                "018000111448",
+                "018000180222"
             ],
             "areaCode":"7",
             "viewMap":"https://www.google.com/maps/place/Porta+Giron/@7.0656606,-73.1660999,17z/data=!3m1!4b1!4m5!3m4!1s0x8e683e93fece34e3:0x9453e054bc3eb432!8m2!3d7.0656553!4d-73.1639112?hl=es"
         },
         "cali-01":{
-            "name":"Punto de servicio, Cali",
+            "name":"Alkosto Cali",
             "address": "Cl 13 No. 80 - 187, Paso Ancho",
             "lat": "3.3852413",
             "lng": "-76.5400162",
             "schedule": [
-                "Lun a Dom de 7:00 a.m - 9:00 p.m"
+                "Lun a Vie de 8:00 a.m - 7:00 p.m",
+                "Dom y Fes de 9:00 a.m - 5:00 p.m"
             ],
             "phone": [
-                "4073033"
+                "018000111448",
+                "018000180222"
             ],
             "areaCode":"2",
             "viewMap":"https://www.google.com/maps/place/Cl.+13+%23%23+80+-+187,+Cali,+Valle+del+Cauca/@3.3852413,-76.5400162,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a15d5051f7a3:0x7e453e1e2579d5f9!8m2!3d3.3852359!4d-76.5378275?hl=es"
         },
         "cartagena-01":{
-            "name":"Punto de servicio, CSA Cartagena",
+            "name":"CSA Cartagena",
             "address": "Av El Lago No. 17 - 214, Al frente del Complejo Banquetas",
             "lat": "10.4130813",
             "lng": "-75.5307024",
             "schedule": [
-                "Lun a Vie de 8:00 a.m - 7:00 p.m",
+                "Lun a Vie de 8:00 a.m - 5:00 p.m",
                 "Sab de 8:00 a.m - 1:00 p.m"
             ],
             "phone": [
-                " 6661212"
+                "3282105",
+                "6661212"
             ],
             "cell": [
                 "3183519648"
@@ -131,26 +243,27 @@
             "viewMap":"https://www.google.com/maps/search/Av.+El+Lago,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar/@10.4130813,-75.5307024,17z/data=!3m1!4b1?hl=es"
         },
         "cucuta-01":{
-            "name":"Punto de servicio, CSA Cúcuta",
+            "name":"CSA Cúcuta",
             "address": "Dg Santander No. 4E - 95, Lc 104, Antigua Serviteca Rosetal",
             "lat": "7.887284",
             "lng": "-72.4958494",
             "schedule": [
-                "Lun a Vie de 7:30 a.m - 5:00 p.m",
+                "Lun a Vie de 8:00 a.m - 5:00 p.m",
                 "Sab de 8:00 a.m - 3:00 p.m"
             ],
             "phone": [
-                "55018692"
+                "5018692"
             ],
-            "areaCode":"7",
             "cell": [
                 "3006618694"
             ],
+            "areaCode":"7",
             "viewMap": "https://www.google.com/maps/place/Dg.+Santander+%2395,+C%C3%BAcuta,+Norte+de+Santander/@7.887284,-72.4958494,17z/data=!3m1!4b1!4m5!3m4!1s0x8e66450a80c78e95:0x774cd772c351e8d8!8m2!3d7.8872787!4d-72.4936607?hl=es"
         },
         "duitama-01":{
-            "name":"Punto de servicio, CSA Duitama",
+            "name":"CSA Duitama",
             "address": "Av Las Américas No. 27 - 11",
+            "email": "admduitama@interllantas.com",
             "lat": "5.8165496",
             "lng": "-73.0358168",
             "schedule": [
@@ -160,23 +273,21 @@
             "phone": [
                 "7651210"
             ],
-            "areaCode":"8",
             "cell": [
                 "3104149206"
             ],
+            "areaCode":"8",
             "viewMap":"https://www.google.com/maps/place/Cra.+27+%26+Av+de+las+Am%C3%A9ricas,+Duitama,+Boyac%C3%A1/@5.8165496,-73.0358168,17z/data=!3m1!4b1!4m5!3m4!1s0x8e6a3f70bb1a8e97:0xec1b7c32f4956b!8m2!3d5.8165443!4d-73.0336281?hl=es"
         },
         "fusagasuga-01":{
-            "name":"Punto de servicio, CSA Fusagasugá",
+            "name":"CSA Fusagasugá",
             "address": "Cl 25 No. 56 - 65, Sector Belmira sobre La Panamericana",
+            "email": "fusagasuga@interllantas.com",
             "lat": "4.3254369",
             "lng": "-74.3694939",
             "schedule": [
                 "Lun a Vie de 7:30 a.m - 5:30 p.m",
                 "Sab de 8:00 a.m a 12:00 p.m"
-            ],
-            "phone": [
-                ""
             ],
             "areaCode":"1",
             "cell": [
@@ -185,26 +296,25 @@
             "viewMap":"https://www.google.com/maps/place/Cl.+25+%2356,+Fusagasug%C3%A1,+Cundinamarca/@4.3254369,-74.3694939,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f048f7a6a6899:0x1555b38176dc0592!8m2!3d4.3254316!4d-74.3673052?hl=es"
         },
         "ibague-01":{
-            "name":"Punto de servicio, CSA Interllantas Ibague",
+            "name":"CSA Interllantas Ibague",
             "address": "Cr 20 Av Ambala No. 36 - 27",
+            "email": "ibague@interllantas.com",
             "lat": "4.4461849",
             "lng": "-75.2178724",
             "schedule": [
                 "Lun a Vie de 7:30 a.m - 5:30 p.m",
                 "Sab de 8:00 a.m a 2:00 p.m"
             ],
-            "phone": [
-                ""
-            ],
             "areaCode":"8",
             "cell": [
-                "312 4039413"
+                "3124039413"
             ],
             "viewMap":"https://www.google.com/maps/place/Cra.+20+%2336-27,+Ibagu%C3%A9,+Tolima/@4.4461849,-75.2178724,17z/data=!3m1!4b1!4m5!3m4!1s0x8e38c4f0dbde3441:0xc69e1e6d2ea4daee!8m2!3d4.4461796!4d-75.2156837?hl=es"
         },
         "medellin-01":{
-            "name":"Punto de servicio, CSA Poblado",
+            "name":"CSA Poblado",
             "address": "Cr 43 No. 25A - 66, Av El Poblado",
+            "email": "facpoblado@interllantas.com",
             "lat": "6.2248975",
             "lng": "-75.5703517",
             "schedule": [
@@ -221,8 +331,9 @@
             "viewMap":"https://www.google.com/maps/place/Cra.+43+%2325a-66,+Medell%C3%ADn,+Antioquia/@6.2248975,-75.5703517,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4428342a4c9391:0xd3a8869a0b9108fc!8m2!3d6.2248922!4d-75.568163?hl=es"
         },
         "medellin-02":{
-            "name":"Punto de servicio, CSA Interllantas Éxito Bello",
+            "name":"CSA Interllantas Éxito Bello",
             "address": "Dg 51 No. 35 - 20, C.C Puerta del Norte Sotano",
+            "email": "csabello@interllantas.com, jrestrepo@interllantas.com",
             "lat": "6.3403617",
             "lng": "-75.5456652",
             "schedule": [
@@ -239,16 +350,14 @@
             "viewMap":"https://www.google.com/maps/place/Puerta+del+Norte/@6.3403617,-75.5456652,17z/data=!3m1!4b1!4m5!3m4!1s0x8e442f9a6c7f410b:0xc1affe120098551a!8m2!3d6.3403415!4d-75.5434722?hl=es"
         },
         "medellin-03":{
-            "name":"Punto de servicio, CSA Agreste",
+            "name":"CSA Agreste",
             "address": "Cr 43 No. 31 - 99",
+            "email": "agreste@interllantas.com",
             "lat": "6.2322455",
             "lng": "-75.5711523",
             "schedule": [
                 "Lun a Vie de 7:30 a.m - 5:30 p.m",
                 "Sab de 8:00 a.m a 2:00 p.m"
-            ],
-            "phone": [
-                ""
             ],
             "areaCode":"4",
             "cell": [
@@ -257,58 +366,46 @@
             "viewMap":"https://www.google.com/maps/place/Cra.+43+%2331-99,+Medell%C3%ADn,+Antioquia/@6.2322455,-75.5711523,17z/data=!3m1!4b1!4m5!3m4!1s0x8e44284be4e069a5:0xd5f40c87ac3f7ce2!8m2!3d6.2322402!4d-75.5689636?hl=es"
         },
         "pereira-01":{
-            "name":"Punto de servicio, Pereira",
+            "name":"Alkosto Pereira",
             "address": "Av Las Americas No. 46 - 03",
             "lat": "4.8057132",
             "lng": "-75.7171522",
             "schedule": [
-                "Lun a Dom de 8:00 a.m - 9:00 p.m"
+                "Lun a Vie de 8:00 a.m - 7:00 p.m",
+                "Dom y Fes de 9:00 a.m - 5:00 p.m"
             ],
             "phone": [
-                "4073033"
+                "018000111448",
+                "018000180222"
             ],
             "areaCode":"6",
             "viewMap":"https://www.google.com/maps/place/Av.+de+las+Am%C3%A9ricas+%2346,+Pereira,+Risaralda/@4.8057132,-75.7171522,17z/data=!3m1!4b1!4m5!3m4!1s0x8e387df576816edf:0x872df353d725140!8m2!3d4.8057079!4d-75.7149635?hl=es"
         },
-        "pasto-01":{
-            "name":"Punto de servicio, Tuquerres",
-            "address": "Cr 13 No. 20, Esquina",
-            "lat": "1.0859787",
-            "lng": "-77.6205867",
-            "schedule": [
-                "Lun a Dom de 8:00 a.m - 9:00 p.m"
-            ],
-            "phone": [
-                "4073033"
-            ],
-            "areaCode":"2",
-            "viewMap":"https://www.google.com/maps/search/Carrera+13+%23no.+20,+T%C3%BAquerres,+Nari%C3%B1o/@1.0859787,-77.6205867,17z/data=!3m1!4b1?hl=es"
-        },
         "sincelejo-01":{
-            "name":"Punto de servicio, Sincelejo",
+            "name":"Alkosto Sincelejo",
             "address": "Cl 28 No. 25B - 27, C.C Guacari, Lc 101",
             "lat": "9.3027125",
             "lng": "-75.38805",
             "schedule": [
-                "Lun a Dom de 8:00 a.m - 9:00 p.m"
+                "Lun a Vie de 8:00 a.m - 7:00 p.m",
+                "Dom y Fes de 9:00 a.m - 5:00 p.m"
             ],
             "phone": [
-                "4073033"
+                "018000111448",
+                "018000180222"
             ],
             "areaCode":"5",
             "viewMap":"https://www.google.com/maps/search/Carrera+28+%2325b-27,+Sincelejo,+Sucre/@9.3027125,-75.38805,16z/data=!3m1!4b1?hl=es"
         },
         "valledupar-01":{
-            "name":"Punto de servicio, CSA Interllantas Valledupar",
+            "name":"CSA Interllantas Valledupar",
             "address": "Cr 7 No. 28 - 04",
+            "email": "valledupar@interllantas.com",
             "lat": "10.4576213",
             "lng": "-73.2448829",
             "schedule": [
                 "Lun a Vie de 7:30 a.m - 5:30 p.m",
                 "Sab de 8:00 a.m a 2:00 p.m"
-            ],
-            "phone": [
-                ""
             ],
             "areaCode":"5",
             "cell": [
@@ -317,29 +414,33 @@
             "viewMap":"https://www.google.com/maps/place/Cra.+7+%2328+51,+Valledupar,+Cesar/@10.4576213,-73.2448829,17z/data=!3m1!4b1!4m5!3m4!1s0x8e8ab997a2123a53:0x99a3923dc71a6dda!8m2!3d10.457616!4d-73.2426942?hl=es"
         },
         "villavicencio-01":{
-            "name":"Punto de servicio, Villavicencio",
+            "name":"Alkosto Villavicencio",
             "address": "Cl 31 No. 31 - 95",
             "lat": "4.1442358",
             "lng": "-73.6356476",
             "schedule": [
-                "Lun a Dom de 8:00 a.m - 9:00 p.m"
+                "Lun a Vie de 8:00 a.m - 7:00 p.m",
+                "Dom y Fes de 9:00 a.m - 5:00 p.m"
             ],
             "phone": [
-                "4073033"
+                "018000111448",
+                "018000180222"
             ],
             "areaCode":"8",
             "viewMap":"https://www.google.com/maps/place/Cl.+31+%23%2331-95,+Villavicencio,+Meta/@4.1442358,-73.6356476,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3e2de104b6dd35:0x1d6d37468a950c30!8m2!3d4.1442305!4d-73.6334589?hl=es"
         },
         "yopal-01":{
-            "name":"Punto de servicio, Yopal",
+            "name":"Alkosto Yopal",
             "address": "Cl 24 No. 28 - 72, C.C Morichal Plaza. Ancla No.2",
             "lat": "5.3398421",
             "lng": "-72.3886698",
             "schedule": [
-                "Lun a Dom de 8:00 a.m - 9:00 p.m"
+                "Lun a Vie de 8:00 a.m - 7:00 p.m",
+                "Dom y Fes de 9:00 a.m - 5:00 p.m"
             ],
             "phone": [
-                "4073033"
+                "018000111448",
+                "018000180222"
             ],
             "areaCode":"8",
             "viewMap":"https://www.google.com/maps/place/Cl.+24+%2328-72,+Yopal,+Casanare/@5.3398421,-72.3886698,17z/data=!3m1!4b1!4m5!3m4!1s0x8e6b0dac5900d895:0xe6fbc05b6c20bc3c!8m2!3d5.3398368!4d-72.3864811?hl=es"
@@ -368,7 +469,6 @@
                         "medellin-01",
                         "medellin-02",
                         "medellin-03",
-                        "pasto-01",
                         "pereira-01",
                         "sincelejo-01",
                         "valledupar-01",
@@ -399,7 +499,8 @@
                     "areaCode": 5,
                     "name": "Barranquilla",
                     "puntos": [
-                        "barranquilla-01"
+                        "barranquilla-01",
+                        "barranquilla-02"
                     ]
                 }
             }
@@ -463,7 +564,11 @@
                         "bogota-02",
                         "bogota-03",
                         "bogota-04",
-                        "bogota-05"
+                        "bogota-05",
+                        "bogota-06",
+                        "bogota-07",
+                        "bogota-08",
+                        "bogota-09"
                     ]
                 },
                 "fusagasuga": {
@@ -483,18 +588,6 @@
                     "name": "Villavicencio",
                     "puntos": [
                         "villavicencio-01"
-                    ]
-                }
-            }
-        },
-        "narino": {
-            "name": "Nariño",
-            "cities": {
-                "pasto": {
-                    "areaCode": 2,
-                    "name": "Pasto",
-                    "puntos": [
-                        "pasto-01"
                     ]
                 }
             }
