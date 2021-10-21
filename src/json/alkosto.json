@@ -223,6 +223,93 @@
             "areaCode":"2",
             "viewMap":"https://www.google.com/maps/place/Cl.+13+%23%23+80+-+187,+Cali,+Valle+del+Cauca/@3.3852413,-76.5400162,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a15d5051f7a3:0x7e453e1e2579d5f9!8m2!3d3.3852359!4d-76.5378275?hl=es"
         },
+        "cali-02":{
+            "name":"Tecnicentro Santa Monica Panorama",
+            "address": "Cl 15 No. 35-390, Autopista Cali,Yumbo",
+            "lat": "3.5003722",
+            "lng": "-76.5089951",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 1:00 p.m"
+            ],
+            "phone": [
+                "6653981"
+            ],
+            "cell":[
+                "3206964278"
+            ],
+            "areaCode":"2",
+            "viewMap":"https://www.google.com/maps/place/Cl.+15+%2335-390,+Yumbo,+Valle+del+Cauca/@3.5003722,-76.5089951,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a88b11ef294d:0x9379d3dbd6059e45!8m2!3d3.5003722!4d-76.5068064?hl=es"
+        },
+        "cali-03":{
+            "name":"Tecnicentro Santa Mónica Principal",
+            "address": "Av 6 Norte No. 22N-61",
+            "lat": "3.4645488",
+            "lng": "-76.5323023",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 5:00 p.m"
+            ],
+            "phone": [
+                "6610249"
+            ],
+            "cell": [
+                "3156449997"
+            ],
+            "areaCode":"2",
+            "viewMap":"https://www.google.com/maps/place/Av.+6+Nte.+%2322n70,+Cali,+Valle+del+Cauca/@3.4645488,-76.5323023,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a614955f0c45:0x82c8c930cc74cba5!8m2!3d3.4645488!4d-76.5301136?hl=es"
+        },
+        "cali-04":{
+            "name":"Tecnicentro Santa Mónica Panamericana",
+            "address": "Cl 34 No. 3-33",
+            "lat": "3.460989",
+            "lng": "-76.5159855",
+            "schedule": [
+                "Lun a Vie de 8:00 a.m a 6:00 p.m",
+                "Sab de 8:00 a.m a 5:00 p.m"
+            ],
+            "phone": [
+                "3206964287"
+            ],
+            "cell": [
+                "4441328"
+            ],
+            "areaCode":"2",
+            "viewMap":"https://www.google.com/maps/place/Cl.+34+%233-33,+Cali,+Valle+del+Cauca/@3.460989,-76.5159855,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a6487ed811dd:0x5c47895d0bbcb041!8m2!3d3.460989!4d-76.5137968?hl=es"
+        },
+        "cali-05":{
+            "name":"Tecnicentro Santa Mónica Sur Parqueadero C.C Jardin Plaza",
+            "address": "",
+            "lat": "3.3692303",
+            "lng": "-76.5297074",
+            "schedule": [
+                "Lun a Sab de 9:00 a.m a 6:00 p.m",
+                "Dom 9:00 a.m a 5:00 p.m"
+            ],
+            "phone": [
+                "3995543"
+            ],
+            
+            "cell": [
+                "3182298664"
+            ],
+            "areaCode":"2",
+            "viewMap":"https://www.google.com/maps/place/Centro+Comercial+Jard%C3%ADn+Plaza/@3.3692303,-76.5297074,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a17491d2a5f9:0xf06c44da2d3c8a74!8m2!3d3.3692303!4d-76.5275187?hl=es"
+        },
+        "cali-06":{
+            "name":"Tecnicentro Santa Mónica, Hipermercado Jumbo Chipichape",
+            "address": "Cl 40 No. 6A-45",
+            "lat": "3.4798387",
+            "lng": "-76.5289282",
+            "schedule": [
+                "Lun a Sab de 8:00 a.m a 6:00 p.m"
+            ],
+            "cell": [
+                "3206964283"
+            ],
+            "areaCode":"2",
+            "viewMap":"https://www.google.com/maps/place/Cl.+40+Nte.+%236A-45,+Cali,+Valle+del+Cauca/@3.4798387,-76.5289282,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a61f6565761d:0xf10c50f4ffc89fe!8m2!3d3.4798387!4d-76.5267395?hl=es"
+        },
         "cartagena-01":{
             "name":"CSA Cartagena",
             "address": "Av El Lago No. 17 - 214, Al frente del Complejo Banquetas",
@@ -461,6 +548,11 @@
                         "bogota-05",
                         "bucaramanga-01",
                         "cali-01",
+                        "cali-02",
+                        "cali-03",
+                        "cali-04",
+                        "cali-05",
+                        "cali-06",
                         "cartagena-01",
                         "cucuta-01",
                         "barranquilla-01",
@@ -659,7 +751,12 @@
                     "areaCode": 2,
                     "name": "Cali",
                     "puntos": [
-                        "cali-01"
+                        "cali-01",
+                        "cali-02",
+                        "cali-03",
+                        "cali-04",
+                        "cali-05",
+                        "cali-06"
                     ]
                 }
             }
