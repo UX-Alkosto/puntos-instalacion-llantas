@@ -1,6 +1,6 @@
 {
   "name": "puntos-instalacion-llantas",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "main": "Gruntfile.js",
   "dependencies": {
