@@ -1,0 +1,532 @@
+<link href="https://cdn.jsdelivr.net/gh/ux-alkosto/icons/style.min.css" rel="stylesheet">
+<link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/ux-alkosto/puntos-instalacion-llantas/dist/alkosto/css/instalacion.css">
+<script type="module" src="https://cdn.jsdelivr.net/gh/ux-alkosto/webcomponents/dist/components.js"></script>
+<style>
+    .pageType-ContentPage:not(.page-homepage) h2 {
+        color: #fff !important;
+        font-size: 16px !important;
+        line-height: 24px;
+        padding: 0 30px;
+    }
+
+
+    .instalacion_llantas h1 {
+        color: #004797;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .instalacion_llantas h3 {
+        color: #004797;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .franja-marcas h3 {
+        font-weight: bold;
+    }
+
+    .instalacion_llantas p,
+    .rueda_verde div p {
+        color: #444;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .titulo-instalacion {
+        color: #FFFFFF;
+        font-style: oblique;
+        font-weight: bold !important;
+        -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        
+    }
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+    .zona-gris {
+        padding: 0px;
+    }
+
+
+    .fondo_color {
+        background-color: #FFFDF4;
+        margin: 40px 0;
+    }
+
+    .importante {
+        align-items: center;
+        background: #0047970D 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 8px #0000001C;
+        border: 1px solid #00479740;
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 1;
+        padding: 10px 20px 0 20px;
+        margin: 30px 0;
+    }
+
+    .importante i {
+        color: var(--primary-color2, #004797);
+        font-size: 30px;
+        margin-bottom: 10px;
+        padding-right: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .importante p {
+        color: var(--primary-color2, #004797);
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .banner_blue {
+        align-items: center;
+        background: #004797;
+        background-image: url("/medias/llanta-sola.png?context=bWFzdGVyfGxhbmRpbmctYnVzY2Fkb3ItbGxhbnRhc3wxMzg0MHxpbWFnZS9wbmd8bGFuZGluZy1idXNjYWRvci1sbGFudGFzL2hkZS9oZTUvMTA2NjQ4OTMwMjIyMzgucG5nfDI5YTY4ZjEwNjAxMjAxOTk4MDIwZTI1NzcyMTA3NDllYzA3N2Q1NDM3MmY1M2E2N2FmOGFmMmRjN2Q2YWM3ZWI");
+        background-position: -40px -20px;
+        background-repeat: no-repeat;
+        border-radius: 0px;
+        display: block;
+        height: auto;
+        justify-content: center;
+        margin: 30px 0;
+        padding: 20px;
+        position: inital;
+        text-align: center;
+    }
+
+    .banner_blue img {
+        display: none;
+    }
+
+    .fondo-blue {
+        display: none;
+    }
+
+    .fondo_imagen {
+        background-image: url("/medias/fondo-hojas-blur-mobile.png?context=bWFzdGVyfGxhbmRpbmctYnVzY2Fkb3ItbGxhbnRhc3w1Mjg1NXxpbWFnZS9wbmd8bGFuZGluZy1idXNjYWRvci1sbGFudGFzL2hjZS9oZWEvMTA3ODYzNTkwNTAyNzAucG5nfDExOGYxOGIxYWMzZjVmZWEzNDQ5OGVlYTJiN2FhNjU5Mjc2ZmVjZWViNjNlNTdlOTk5OWJjNTU0NDcxMmM1Zjc");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .rueda_verde {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        padding: 30px 20px;
+    }
+
+    .rueda_verde div:nth-child(1) {
+        order: 2;
+    }
+
+    .rueda_verde div:nth-child(2) {
+        margin-bottom: 20px;
+        order: 1;
+        text-align: center;
+        width: 100%;
+    }
+
+    .rueda_verde div:nth-child(2) img {
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .puntos-instalacion p {
+        margin-bottom: 40px;
+    }
+
+    .franja-slider-video {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .franja-slider-video>div {
+        margin-bottom: 20px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .carousel-indicators {
+        z-index: 2 !important;
+    }
+
+    /* INICIO ESTILOS CARROUSEL hybrids */
+
+    .owl-carousel.js-adglare-carousel .owl-nav .owl-prev span,
+    .owl-carousel.js-adglare-carousel .owl-nav .owl-next span {
+        top: 23px !important;
+    }
+
+    .owl-carousel .owl-nav .owl-prev span,
+    .owl-carousel .owl-nav .owl-next span {
+        line-height: 20px !important;
+    }
+
+    .owl-carousel .owl-nav .owl-prev,
+    .owl-carousel .owl-nav .owl-next {
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 50px !important;
+    }
+
+    /* FIN ESTILOS CARROUSEL hybrids  */
+
+
+    @media screen and (min-width: 768px) {
+
+        .contenedor-video {
+            padding: .5em 0;
+        }
+
+        .puntos-instalacion p {
+            margin-bottom: 0px;
+        }
+
+        .zona-gris {
+            background-color: #F5F5F5;
+            padding: 20px;
+        }
+
+        .banner_blue {
+            align-items: center;
+            background-image: none;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            text-align: center;
+        }
+
+        .banner_blue img {
+            display: block;
+            position: absolute;
+            -webkit-animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 6 both;
+            animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 6 both;
+            z-index: 1;
+        }
+
+        .banner_blue img:first-child {
+            left: 0;
+        }
+
+        .banner_blue img:nth-child(2) {
+            right: 0;
+        }
+
+        @-webkit-keyframes rotate-90-cw {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes rotate-90-cw {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        .ancho_80 {
+            margin: 0 auto;
+            width: 90%;
+        }
+
+
+        .fondo_imagen {
+            background-image: url("/medias/fondo-hojas-blur-escritorio.png?context=bWFzdGVyfGxhbmRpbmctYnVzY2Fkb3ItbGxhbnRhc3w4MTkwMXxpbWFnZS9wbmd8bGFuZGluZy1idXNjYWRvci1sbGFudGFzL2gxYi9oZTcvMTA3ODYzNTg4NTM2NjIucG5nfDdlZTI5ODAzZmNlMDUzMDgxY2U3Yjg4Njk5ZjAzZjJkYTVlYTIzNmQ1N2FiYjliYzI5M2U1OGQ5YTdhZDU5Nzg");
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+
+        .rueda_verde div:nth-child(1) {
+            order: 1;
+            width: 60%;
+        }
+
+        .rueda_verde div:nth-child(2) {
+            background-image: url("/medias/hoja-suelta.svg?context=bWFzdGVyfGxhbmRpbmctYnVzY2Fkb3ItbGxhbnRhc3w3OTU3fGltYWdlL3N2Zyt4bWx8bGFuZGluZy1idXNjYWRvci1sbGFudGFzL2hjZi9oNjUvMTA3ODYzNTU4MzkwMDYuc3ZnfDNhMzZkNjQwNDliOGU1NTUzM2U0OGJhYWY5YTc3MWUxZGI5ZWViYmE3ZGFhZTAyMjg1Yzg1ZjQwMmIzYzk1NzY");
+            background-position: 80%;
+            background-repeat: no-repeat;
+            background-size: 40px;
+            order: 2;
+            text-align: center;
+            width: 40%;
+        }
+
+        .rueda_verde div:nth-child(2) img {
+            padding-left: 0px;
+            width: 50%;
+        }
+
+        .fondo-blue {
+            border-radius: 50px;
+            position: absolute;
+            z-index: 0;
+        }
+
+
+        .importante {
+            flex-wrap: nowrap;
+        }
+
+        .importante i {
+            margin-top: 0;
+            margin-right: 10px;
+            margin-bottom: 0px;
+            width: 5%;
+        }
+
+        .importante p {
+            width: 95%;
+        }
+
+        .franja-slider-video {
+            align-items: center;
+            display: flex;
+            margin-bottom: 40px;
+        }
+
+        .franja-slider-video>div {
+            padding: 0 10px;
+            width: 50%;
+        }
+
+        .franja-marcas {
+            margin-bottom: 40px;
+        }
+        .pageType-ContentPage:not(.page-homepage) h2 {
+        font-size: 30px !important;
+        padding: 0;
+    }
+    }
+
+    @media screen and (min-width: 1024px) {
+
+        .ancho_80 {
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        .rueda_verde div:nth-child(2) {
+            text-align: left;
+            background-position: 70%;
+            background-size: 60px;
+        }
+
+        .rueda_verde div:nth-child(2) img {
+            padding-left: 90px;
+            width: 60%;
+        }
+    }
+</style>
+
+<div class="container instalacion_llantas">
+    <h1>Instalación de llantas</h1>
+    <div class="banner_blue">
+        <img src="/medias/llanta-sola.png?context=bWFzdGVyfGxhbmRpbmctYnVzY2Fkb3ItbGxhbnRhc3wxMzg0MHxpbWFnZS9wbmd8bGFuZGluZy1idXNjYWRvci1sbGFudGFzL2hkZS9oZTUvMTA2NjQ4OTMwMjIyMzgucG5nfDI5YTY4ZjEwNjAxMjAxOTk4MDIwZTI1NzcyMTA3NDllYzA3N2Q1NDM3MmY1M2E2N2FmOGFmMmRjN2Q2YWM3ZWI"
+            alt="Imagen Llanta">
+        <img src="/medias/llanta-sola.png?context=bWFzdGVyfGxhbmRpbmctYnVzY2Fkb3ItbGxhbnRhc3wxMzg0MHxpbWFnZS9wbmd8bGFuZGluZy1idXNjYWRvci1sbGFudGFzL2hkZS9oZTUvMTA2NjQ4OTMwMjIyMzgucG5nfDI5YTY4ZjEwNjAxMjAxOTk4MDIwZTI1NzcyMTA3NDllYzA3N2Q1NDM3MmY1M2E2N2FmOGFmMmRjN2Q2YWM3ZWI"
+            alt="Imagen Llanta">
+        <h2 class="titulo-instalacion">Instalación ¡GRATIS! en nuestras tiendas Alkosto</h2>
+        <div class="fondo-blue"></div>
+    </div>
+    <k-title-underline type="center">
+        <h3>Puntos de instalación de llantas</h3>
+    </k-title-underline>
+    <div class="ancho_80">
+        <p>Alkosto ofrece en sus Centros de Servicios Autorizados el montaje completamente gratis de llantas
+            (excepto llantas de camiones, automóviles blindados y motocicletas).</p>
+        <div class="importante">
+            <i class="alk-icon-help2"></i>
+            <p>Adicional, podrás encontrar servicios complementarios como: alineación, balanceo, rectificación,
+                mecánica rápida. (Estos servicios NO están contemplados para la Política de Instalación gratis).</p>
+        </div>
+    </div>
+    <!-- INICIO PUNTOS DE INSTALACIÓN -->
+    <div class="puntos-instalacion">
+        <p>¿En qué departamento te encuentras ubicado? selecciona el punto más cercano para la instalación de tus
+            llantas:</p>
+        <div class="puntos-instalacion__filters">
+            <div class="puntos-instalacion__filters__departamento">
+                <label for="departamento">Departamento</label>
+                <select name="departamento" id="departamento" data-custom-select="true"></select>
+            </div>
+        </div>
+        <p class="msje-localiza">Selecciona en la parte de arriba un departamento que se encuentra disponible para
+            la instalación de tus llantas.</p>
+        <div class="puntos-instalacion__container">
+            <div class="puntos-instalacion__menu"></div>
+            <div class="puntos-instalacion__map">
+                <div id="puntos-instalacion-map"></div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN PUNTOS DE INSTALACIÓN -->
+    <div class="franja-slider-video">
+        <div class="col-12 no-padding component__banner">
+            <div class="carousel__rotativeBanner">
+                <div class="owl-carousel rotativeBanner js-adglare-carousel">
+                    <div class="banner-adglare">
+                        <!-- AdGlare: AK-LLantas-landing-1 --><span id=zone111797570></span>
+                        <script>
+                            (function (r, d, u) {
+                                var s = d.createElement(r);
+                                s.async = true;
+                                u += '&cb=' + Date.now() + Math.random();
+                                s.src = u;
+                                var n = d.getElementsByTagName(r)[0];
+                                n.parentNode.insertBefore(s, n);
+                            })('script', document, 'https://engine.alkst.co/?111797570');
+                        </script>
+                    </div>
+                    <div class="banner-adglare">
+                        <!-- AdGlare: AK-LLantas-landing-2 --><span id=zone582568409></span>
+                        <script>
+                            (function (r, d, u) {
+                                var s = d.createElement(r);
+                                s.async = true;
+                                u += '&cb=' + Date.now() + Math.random();
+                                s.src = u;
+                                var n = d.getElementsByTagName(r)[0];
+                                n.parentNode.insertBefore(s, n);
+                            })('script', document, 'https://engine.alkst.co/?582568409');
+                        </script>
+                    </div>
+                    <div class="banner-adglare">
+                        <!-- AdGlare: AK-LLantas-landing-3 --><span id=zone377202694></span>
+                        <script>
+                            (function (r, d, u) {
+                                var s = d.createElement(r);
+                                s.async = true;
+                                u += '&cb=' + Date.now() + Math.random();
+                                s.src = u;
+                                var n = d.getElementsByTagName(r)[0];
+                                n.parentNode.insertBefore(s, n);
+                            })('script', document, 'https://engine.alkst.co/?377202694');
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-video">
+            <video width="100%" height="" controls>
+                <source loading="lazy"
+                    src="https://media.aws.alkosto.com/ymarketingcolcomercio/Recursos/videos-landings/video-llantas-optimizado.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <k-title-underline type="center">
+        <h3>Programa Posconsumo Rueda Verde</h3>
+    </k-title-underline>
+</div>
+<div class="fondo_color">
+    <div class="fondo_imagen">
+        <div class="container rueda_verde">
+            <div>
+                <p><strong>Alkosto pertenece al programa sostenible de recolección selectiva y gestión
+                        ambiental</strong> de llantas usadas, con el propósito de <strong>prevenir y controlar la
+                        degradación del medio ambiente</strong>.
+                </p>
+                <p>Al momento de cambiarlas, estas se deben dejar en las tiendas para su respectiva recolección y
+                    aprovechamiento.</p>
+            </div>
+            <div>
+                <img loading="lazy"
+                    src="/medias/logo-rueda-verde.svg?context=bWFzdGVyfGxhbmRpbmctYnVzY2Fkb3ItbGxhbnRhc3wzOTc3MXxpbWFnZS9zdmcreG1sfGxhbmRpbmctYnVzY2Fkb3ItbGxhbnRhcy9oYWQvaDk3LzEwNzg2MzU1MzE0NzE4LnN2Z3wzYmEyYzlmZGMwNzE3ZjYwMjM5NTdlMzhiZGIxYjA4YTM5Y2I5OTUxMWE1MmY5Njc1MTEzMjBkOGZlNzc1ZTM2"
+                    alt="Imagen marca Rueda Verde">
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="franja-marcas">
+    <div class="container">
+        <k-title-underline type="center">
+            <h3>Tus marcas de confianza en un solo lugar</h3>
+        </k-title-underline>
+        <k-slider arrows="false" desktop-items="7" mobile-items="3" peek="0" mobile-arrows="true"
+            style="--k-slider-background-color: #fff;">
+            <div class="k-slider__slide">
+                <img loading="lazy" title="Michelin"
+                    src="https://media.aws.alkosto.com//ymarketingcolcomercio/Recursos/logos-marcas/llantas/michelin.svg" />
+            </div>
+            <div class="k-slider__slide">
+                <img loading="lazy" title="Sportiva"
+                    src="https://media.aws.alkosto.com//ymarketingcolcomercio/Recursos/logos-marcas/llantas/sportiva.svg" />
+            </div>
+            <div class="k-slider__slide">
+                <img loading="lazy" title="Continental"
+                    src="https://media.aws.alkosto.com//ymarketingcolcomercio/Recursos/logos-marcas/llantas/continental.svg" />
+            </div>
+            <div class="k-slider__slide">
+                <img loading="lazy" title="Kenex"
+                    src="https://media.aws.alkosto.com//ymarketingcolcomercio/Recursos/logos-marcas/llantas/kenex.png" />
+            </div>
+            <div class="k-slider__slide">
+                <img loading="lazy" title="Pirelli"
+                    src="https://media.aws.alkosto.com//ymarketingcolcomercio/Recursos/logos-marcas/llantas/pirelli.svg" />
+            </div>
+            <div class="k-slider__slide">
+                <img loading="lazy" title="Nexen"
+                    src="https://media.aws.alkosto.com//ymarketingcolcomercio/Recursos/logos-marcas/llantas/nexen.svg" />
+            </div>
+            <div class="k-slider__slide">
+                <img loading="lazy" title="Dunlop"
+                    src="https://media.aws.alkosto.com//ymarketingcolcomercio/Recursos/logos-marcas/llantas/dunlop.svg" />
+            </div>
+        </k-slider>
+    </div>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta&key=AIzaSyAy8TW2_NTWIBNcOrTQLCksD-LRbcSlRlw" defer></script>
+<script type="module" crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/gh/ux-alkosto/puntos-instalacion-llantas/dist/common/js/instalacion.js"></script>
+<script>
+    const appConfig = {
+        jsonFile: 'https://cdn.jsdelivr.net/gh/ux-alkosto/puntos-instalacion-llantas@1.0.12/dist/alkosto/json/puntos-instalacion.json',
+        site: 'alkosto'
+    }
+</script>
