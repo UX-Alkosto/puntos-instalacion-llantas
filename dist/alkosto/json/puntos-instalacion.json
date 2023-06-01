@@ -116,12 +116,11 @@
         },
         "barranquilla-02": {
             "name": "Punto de instalación Prado",
-            "address": "Cr 44 No. 74 - 52",
+            "address": "Calle 98 # 51 B 91 sótano 2 Buena Vista",
             "lat": "10.9942337",
             "lng": "-74.8114502",
-            "schedule": ["Lun a Vie de 8:00 a.m - 5:00 p.m", "Sab de 8:00 a.m - 1:00 p.m"],
-            "phone": ["3282105", "6661212"],
-            "cell": ["3156126452"],
+            "schedule": ["Lun a Sab de 9:00 a.m - 6:00 p.m", "Dom y Fes de 9:00 a.m - 5:00 p.m"],
+            "cell": ["3182575559","3115521143", "3182819075"],
             "areaCode": "7",
             "viewMap": "https://www.google.com/maps/place/Cra.+44+%23%2374-52,+Barranquilla,+Atl%C3%A1ntico/@10.9942337,-74.8114502,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef42d0c1b2f8b3f:0x4ea826416801e7b0!8m2!3d10.9942284!4d-74.8092615"
         },
