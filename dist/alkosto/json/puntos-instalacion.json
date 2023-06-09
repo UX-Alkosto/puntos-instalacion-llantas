@@ -109,7 +109,7 @@
             "address": "Cl 98 No. 51B - 91, Sector Buenavista",
             "lat": "11.0120043",
             "lng": "-74.8302784",
-            "schedule": ["Lun a Sab de 9:00 a.m - 7:00 p.m", "Dom y Fes de 9:00 a.m - 6:00 p.m"],
+            "schedule": ["Lun a Sab de 9:00 a.m - 8:00 p.m", "Dom y Fes de 9:00 a.m - 6:00 p.m"],
             "cell":["3182819075"],
             "areaCode": "5",
             "viewMap": "https://www.google.com/maps/place/Alkosto+Barranquilla/@11.0118265,-74.8282297,17z/data=!3m1!4b1!4m6!3m5!1s0x8ef42c52bac66947:0xedf62f4d2d9309db!8m2!3d11.0118265!4d-74.8282297!16s%2Fg%2F11c1wzh23d"
@@ -129,7 +129,7 @@
             "address": "Anillo Vial Km 2.5 floridablanca - Girón",
             "lat": "7.0615233",
             "lng": "-73.1175132",
-            "schedule": ["Lun a Sab de 9:00 a.m - 7:00 p.m", "Dom y Fes de 9:00 a.m - 6:00 p.m"],
+            "schedule": ["Lun a Sab de 10:00 a.m - 7:00 p.m", "Dom y Fes de 10:00 a.m - 7:00 p.m"],
             "cell": ["3204594374"],
             "areaCode": "7",
             "viewMap": "https://www.google.com/maps/place/Alkosto+Floridablanca/@7.0615233,-73.1175132,17z/data=!3m1!4b1!4m6!3m5!1s0x8e683f142ae82f11:0x67d229ba1a2c364f!8m2!3d7.0615233!4d-73.1175132!16s%2Fg%2F11ggph0n48"
