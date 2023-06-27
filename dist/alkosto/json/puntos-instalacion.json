@@ -115,14 +115,14 @@
             "viewMap": "https://www.google.com/maps/place/Alkosto+Barranquilla/@11.0118265,-74.8282297,17z/data=!3m1!4b1!4m6!3m5!1s0x8ef42c52bac66947:0xedf62f4d2d9309db!8m2!3d11.0118265!4d-74.8282297!16s%2Fg%2F11c1wzh23d"
         },
         "barranquilla-02": {
-            "name": "Punto de instalación Prado",
-            "address": "Calle 98 # 51 B 91 sótano 2 Buena Vista",
-            "lat": "11.0117763",
-            "lng": "-74.8280173",
-            "schedule": ["Lun a Sab de 9:00 a.m - 6:00 p.m", "Dom y Fes de 9:00 a.m - 5:00 p.m"],
-            "cell": ["3182575559","3115521143", "3182819075"],
+            "name": "CSA BARRANQUILLA Prado",
+            "address": "Carrera 54 # 53 - 37 Barrio Abajo, diagonal al teatro Amira de la Rosa",
+            "lat": "10.9924638",
+            "lng": "-74.7918245",
+            "schedule": ["Lun a Vie de 8:00 a.m a 6:00 p.m", "Sab de 8:00 a.m a 2:00 p.m"],
+            "cell": ["3227289934"],
             "areaCode": "7",
-            "viewMap": "https://www.google.com/maps/dir//Cl.+98+%2351b+-+91,+Riomar,+Barranquilla,+Atl%C3%A1ntico/@11.0117763,-74.8280173,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8ef42d9b768cdb47:0xe1de36f83757c3c3!2m2!1d-74.8281501!2d11.0118279?hl=es&entry=ttu"
+            "viewMap": "https://www.google.com/maps/dir//Cra.+54+%2353-37,+Nte.+Centro+Historico,+Barranquilla,+Atl%C3%A1ntico/@10.9924638,-74.7918245,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8ef42d7a496a15f1:0xc6bb2c1b82825ab7!2m2!1d-74.7896358!2d10.9924638?hl=es&entry=ttu"
         },
         "floridablanca-01": {
             "name": "Alkosto Floridablanca",
