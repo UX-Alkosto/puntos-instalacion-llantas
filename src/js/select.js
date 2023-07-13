@@ -111,7 +111,7 @@ function renderOptions(select) {
         optionElement.dataset.value = option.value;
         option.value === "0" ? optionElement.style.display = "none" : "";
         optionElement.addEventListener("click", () => {
-            if (optionElement.dataset.value === "") return;
+            if (optionElement.dataset.value === "0") return;
             let $option = select.optionsCustomElement
                 .querySelector(`[data-value="${select.selectedOption.value}"]`);
             $option.removeAttribute("aria-selected");

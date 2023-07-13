@@ -35,7 +35,7 @@
         line-height: 24px;
     }
 
-    .puntos-instalacion p {
+    .puntos-instalacion .txt-16 {
         font-size: 16px;
         font-weight: bold;
     }
@@ -390,8 +390,6 @@
         <p>Alkosto ofrece en sus Centros de Servicios Autorizados el montaje completamente gratis de llantas
             (excepto llantas de camiones, automóviles blindados y motocicletas).</p>
         <br>
-        <p>Para servicio de asesoría en compra de llantas comuníquese a los teléfonos <a href="tel:6014073033">(601)
-                4073033</a> - <a href="tel:6013649734">(601) 3649734</a> </p>
         <div class="importante">
             <i class="alk-icon-help2"></i>
             <p>Adicional, podrás encontrar servicios complementarios como: alineación, balanceo, rectificación,
@@ -400,7 +398,7 @@
     </div>
     <!-- INICIO PUNTOS DE INSTALACIÓN -->
     <div class="puntos-instalacion">
-        <p>¿En qué departamento te encuentras ubicado? selecciona el punto más cercano para la instalación de tus
+        <p class="txt-16">¿En qué departamento te encuentras ubicado? selecciona el punto más cercano para la instalación de tus
             llantas:</p>
 
         <div class="puntos-instalacion__filters">
@@ -540,10 +538,10 @@
 <script src="https://maps.googleapis.com/maps/api/js?libraries=&v=beta&key=AIzaSyAy8TW2_NTWIBNcOrTQLCksD-LRbcSlRlw"
     defer></script>
 <script type="module" crossorigin="anonymous"
-    src="https://cdn.jsdelivr.net/gh/ux-alkosto/puntos-instalacion-llantas/dist/common/js/instalacion.js"></script>
+    src="../dist/common/js/instalacion.js"></script>
 <script>
     const appConfig = {
-        jsonFile: 'https://cdn.jsdelivr.net/gh/ux-alkosto/puntos-instalacion-llantas@1.0.18/dist/alkosto/json/puntos-instalacion.json',
+        jsonFile: '../dist/alkosto/json/puntos-instalacion.json',
         site: 'alkosto'
     }
 </script>

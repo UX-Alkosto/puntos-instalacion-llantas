@@ -111,9 +111,9 @@ function getFormatedCellphone(location, returnHtml = true) {
     const cellPhoneNumbers = [];
     for (const cellPhoneNumber of location.cellphone) {
         if (returnHtml) {
-            cellPhoneNumbers.push(html`<a href="tel:+57${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${location.name}">${cellPhoneNumber}</a>`);
+            cellPhoneNumbers.push(html`<a href="tel:+60${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${location.name}">${cellPhoneNumber}</a>`);
         } else {
-            cellPhoneNumbers.push(`<a href="tel:+57${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${location.name}">${cellPhoneNumber}</a>`);
+            cellPhoneNumbers.push(`<a href="tel:+60${cellPhoneNumber.replace(/\s/g, "")}" title="Llamar a ${location.name}">${cellPhoneNumber}</a>`);
         }
     }
     return cellPhoneNumbers;
