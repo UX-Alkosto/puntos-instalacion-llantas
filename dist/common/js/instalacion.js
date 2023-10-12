@@ -294,29 +294,40 @@ class B {
 null === (t = (e = globalThis).litHtmlPlatformSupport) || void 0 === t || t.call(e, S, T), (null !== (n = (s = globalThis).litHtmlVersions) && void 0 !== n ? n : s.litHtmlVersions = []).push("2.0.0-rc.3");
 class q {
     constructor(e) {
+
         this.element = e, this.label = e.labels[0], this.options = W(e.querySelectorAll("option")), this.customElement = document.createElement("div"), this.arrowElement = document.createElement("span"), this.labelElement = document.createElement("span"), this.valueElement = document.createElement("span"), this.optionsCustomElement = document.createElement("ul"),
+
             function (e) {
                 HTMLSelectElement.prototype.refresh = function () {
                     this.dispatchEvent(new Event("refresh"))
                 }, e.element.disabled && e.customElement.classList.add("disabled");
                 e.customElement.classList.add("custom-select__container"), e.customElement.tabIndex = 0, e.customElement.setAttribute("aria-labelledby", `${e.element.id}-label`), e.labelElement.classList.add("custom-select__label"), e.labelElement.id = `${e.element.id}-label`, e.labelElement.innerText = e.label.textContent, e.customElement.append(e.labelElement);
                 const t = document.createElement("span");
-                t.classList.add("alk-icon-abajo"), e.arrowElement.append(t), e.arrowElement.classList.add("custom-select__arrow"), e.customElement.append(e.arrowElement), e.valueElement.classList.add("custom-select__value"), e.valueElement.innerText = e.selectedOption.label, e.customElement.append(e.valueElement), e.optionsCustomElement.classList.add("custom-select__options"), O(e), e.customElement.append(e.optionsCustomElement), e.element.addEventListener("refresh", (() => {
-                    e.element.disabled ? e.customElement.classList.add("disabled") : e.customElement.classList.remove("disabled"), e.options = W(e.element.querySelectorAll("option")), e.valueElement.innerText = e.selectedOption.label, e.valueElement.dataset.status = "", O(e)
-                })), e.arrowElement.addEventListener("click", (() => M(e))), e.valueElement.addEventListener("click", (() => M(e))), e.customElement.addEventListener("blur", (() => {
-                    e.arrowElement.querySelector("span").classList.replace("alk-icon-arriba", "alk-icon-abajo"), e.optionsCustomElement.classList.remove("show")
-                }))
+                t.classList.add("alk-icon-abajo"), e.arrowElement.append(t), e.arrowElement.classList.add("custom-select__arrow"), e.customElement.append(e.arrowElement), e.valueElement.classList.add("custom-select__value"), e.valueElement.innerText = e.selectedOption.label, e.customElement.append(e.valueElement), e.optionsCustomElement.classList.add("custom-select__options"), O(e), e.customElement.append(e.optionsCustomElement),
+                    e.element.addEventListener("refresh", (() => {
+                        e.element.disabled ? e.customElement.classList.add("disabled") : e.customElement.classList.remove("disabled"), e.options = W(e.element.querySelectorAll("option")), e.valueElement.innerText = e.selectedOption.label, e.valueElement.dataset.status = "", O(e)
+                    })),
+                    e.arrowElement.addEventListener("click", (() => M(e))), e.valueElement.addEventListener("click", (() => M(e))), e.customElement.addEventListener("blur", (() => {
+                        e.arrowElement.querySelector("span").classList.replace("alk-icon-arriba", "alk-icon-abajo"), e.optionsCustomElement.classList.remove("show")
+                    }))
             }(this), this.element.style.display = "none", this.element.setAttribute("aria-hidden", !0), this.label.style.display = "none", e.after(this.customElement)
     }
+
     get selectedOption() {
         return this.options.find((e => e.selected))
     }
     selectValue(e) {
+
         const t = this.options.find((t => t.value === e)),
             n = this.selectedOption;
+        /*         console.log(t.value);
+                console.log(e);
+                console.log(n.selected); */
         n.selected = !1, n.element.selected = !1, t.selected = !0, t.element.selected = !0, this.element.dispatchEvent(new Event("change")), this.valueElement.innerText = t.label, this.valueElement.dataset.status = "filled"
     }
 }
+
+
 
 function M(e) {
     if (e.customElement.classList.contains("disabled")) return;
@@ -348,11 +359,13 @@ const P = document.getElementById("marca"),
     R = new Option("Selecciona una opción", 0, !0, !0),
     z = document.querySelector(".puntos-instalacion__menu"),
     D = Number(getComputedStyle(document.documentElement).getPropertyValue("--puntos-instalacion-breakpoint").replace("px", ""));
+
 let F = R,
     Z = !0,
     G = null,
     J = !1,
     K = [];
+
 document.addEventListener("updateCenter", (e => {
     const t = e.detail.center;
     if (null !== t) {
@@ -364,6 +377,7 @@ document.addEventListener("updateCenter", (e => {
 })), window.onresize = () => {
     document.querySelector(".puntos-instalacion__map").style.display = "none", window.innerWidth > D && "0" != document.getElementById("departamento").value && (document.querySelector(".puntos-instalacion__map").style.display = "block")
 }, null !== V && (F = new Option(`Selecciona un ${V.labels[0].textContent.toLowerCase()}`, 0, !0, !0), V.append(F), null !== P && (V.disabled = !0)), document.querySelectorAll("[data-custom-select]").forEach((e => new q(e))), void 0 !== appConfig.jsonFile && async function (e = "") {
+    console.log(e);
     if (e.length) return await fetch(e, {
         cache: "force-cache",
         mode: "cors"
@@ -399,6 +413,7 @@ document.addEventListener("updateCenter", (e => {
                 };
                 return K.push(n)
             }))
+
         })), await async function ({
             servicePointsCodes: e,
             PuntosInstalacion: t
@@ -406,6 +421,7 @@ document.addEventListener("updateCenter", (e => {
             if (!e.length) return [];
             const n = await import("./punto-c2afeb04.js").then((e => e.PuntoInstalacion)),
                 s = {};
+                
             return e.map((({
                 city: e,
                 code: t
@@ -437,12 +453,12 @@ document.addEventListener("updateCenter", (e => {
             const t = await import("./menu-72f0c630.js").then((e => e.Menu)),
                 n = [];
             e.map((e => {
-                e.active = Z, Z = !1, e.isCallCenter && (e.coordinates = {
+               /*  e.active = Z, */ Z = !1, e.isCallCenter && (e.coordinates = {
                     lat: 4.67998417919688,
                     lng: -74.08550441957686
                 }), n.push(new t(e, G).render())
             })), J && G.setMarkers(e);
-            $(n, z), document.querySelector("input[name=centro-servicio]").click()
+            $(n, z)/* , document.querySelector("input[name=centro-servicio]").click() */
         }(e))), K = []
     })), V.dispatchEvent(new Event("change")))
 }));
