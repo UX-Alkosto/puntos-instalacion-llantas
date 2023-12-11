@@ -10,6 +10,22 @@
         padding: 0 30px;
     }
 
+    .container.instalacion_llantas p,
+    .container.instalacion_llantas li,
+    .container.rueda_verde p {
+        font-size: 16px;
+    }
+
+    .container.instalacion_llantas li {
+        list-style-type: disc;
+        margin-bottom: 8px;
+        margin-left: 16px;
+    }
+
+    .importante p {
+        font-size: 14px !important;
+    }
+
 
     .instalacion_llantas h1 {
         color: #004797;
@@ -36,8 +52,10 @@
     }
 
     .puntos-instalacion .txt-16 {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: bold;
+        line-height: 20px;
+        margin-bottom: 24px;
     }
 
     .titulo-instalacion {
@@ -47,6 +65,10 @@
         -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
         animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 
+    }
+
+    .puntos-instalacion__container {
+        min-height: 420px;
     }
 
     @-webkit-keyframes tracking-in-expand {
@@ -98,8 +120,13 @@
         display: flex;
         flex-wrap: wrap;
         opacity: 1;
-        padding: 10px 20px 0 20px;
         margin: 30px 0;
+        padding: 16px;
+        width: 66%;
+        margin: 32px auto;
+
+
+
     }
 
     .importante i {
@@ -349,7 +376,7 @@
         }
 
         .pageType-ContentPage:not(.page-homepage) h2 {
-            font-size: 30px !important;
+            font-size: 32px !important;
             padding: 0;
         }
     }
@@ -357,8 +384,7 @@
     @media screen and (min-width: 1024px) {
 
         .ancho_80 {
-            margin: 0 auto;
-            width: 80%;
+            margin: 36px auto 0;
         }
 
         .rueda_verde div:nth-child(2) {
@@ -372,6 +398,99 @@
             width: 60%;
         }
     }
+
+
+    .puntos-instalacion__menu__item__body .contact-phones {
+        display: none;
+    }
+
+    .puntos-instalacion__container {
+        margin-bottom: 0 !important;
+    }
+
+    .puntos-instalacion {
+        width: 100%;
+        background: var(--whitesmoke);
+        padding: 24px;
+        margin: 48px 0;
+    }
+
+    .puntos-instalacion__menu {
+        max-height: 415px;
+    }
+
+    .puntos-instalacion__map {
+        height: 415px;
+    }
+
+    .zona-izquierda img {
+        width: 70%;
+        height: auto;
+    }
+
+    .zona-izquierda {
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .zona-izquierda img {
+        width: 80%;
+        height: auto;
+        border: solid 8px var(--primary-color1);
+        border-radius: 70%;
+        padding: 16px;
+        margin-bottom: 32px;
+    }
+
+    .zona-derecha {
+        display: inline-block;
+        width: 57%;
+        vertical-align: middle;
+    }
+
+    .zona-derecha p strong {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: var(--primary-color2);
+    }
+
+
+    @media screen and (max-width: 768px) {
+
+
+        .zona-izquierda,
+        .zona-derecha {
+            width: 100%;
+            margin-bottom: 32px;
+        }
+
+        .zona-derecha {
+            margin-bottom: 0 !important;
+        }
+
+        .importante {
+            align-items: center;
+            background: #0047970D 0% 0% no-repeat padding-box;
+            box-shadow: 0px 0px 8px #0000001C;
+            border: 1px solid #00479740;
+            display: flex;
+            flex-wrap: wrap;
+            opacity: 1;
+            margin: 30px 0;
+            padding: 16px;
+            width: 100%;
+            margin: 32px auto;
+        }
+
+        .zona-izquierda img {
+            margin-top: 24px;
+        }
+
+
+    }
 </style>
 
 <div class="container instalacion_llantas">
@@ -380,32 +499,60 @@
             alt="Imagen Llanta">
         <img src="https://media.aws.alkosto.com/ymarketingcolcomercio/Alkosto/llantas/llanta-sola.png"
             alt="Imagen Llanta">
-        <h2 class="titulo-instalacion">Instalación ¡GRATIS! en nuestras tiendas Alkosto</h2>
+        <h2 class="titulo-instalacion">¡Instalación GRATIS! Comprando tus llantas en ALKOSTO</h2>
         <div class="fondo-blue"></div>
     </div>
-    <k-title-underline type="center">
-        <h3>Puntos de instalación de llantas</h3>
+    <k-title-underline type="center" style="margin-bottom: 16px;">
+        <h3>¿Cómo puedes acceder al beneficio?</h3>
     </k-title-underline>
+    <center>
+        <p>Ofrecemos el servicio gratuito del montaje de llantas en nuestros Centros de Servicios Autorizados.</p>
+    </center>
     <div class="ancho_80">
-        <p>Alkosto ofrece en sus Centros de Servicios Autorizados el montaje completamente gratis de llantas
-            (excepto llantas de camiones, automóviles blindados y motocicletas).</p>
-        <br>
-        <div class="importante">
-            <i class="alk-icon-help2"></i>
-            <p>Adicional, podrás encontrar servicios complementarios como: alineación, balanceo, rectificación,
-                mecánica rápida. (Estos servicios NO están contemplados para la Política de Instalación gratis).</p>
+        <div class="zona-izquierda">
+            <img
+                src="https://media.aws.alkosto.com/ymarketingcolcomercio/Alkosto/2023/instalaciones/llantas/llantas.png" />
         </div>
+        <div class="zona-derecha">
+            <p><strong>Algunas recomendaciones:</strong></p>
+            <ul>
+                <li>Recuerda presentar tu factura física o digital.</li>
+
+                <li>Aplica para compras de llantas realizadas en nuestros puntos físicos o la página web.</li>
+
+                <li>No aplica para llantas de camiones, automóviles blindados y motocicletas.</li>
+
+                <li><strong>Debes tener disponibilidad de tiempo, ya que se asignan turnos por orden de
+                        llegada.</strong></li>
+            </ul>
+        </div>
+
     </div>
-    <p>Para asesoría en compra de llantas comuníquese al <a href="tel:6014073033">(601) 407 3033</a> - <a
+
+    <p>Contamos con servicios complementarios como: alineación, balanceo, rectificación, mecánica rápida y más.
+        Consulta en nuestros puntos las tarifas adicionales (Estos servicios NO están contemplados dentro de la
+        Política de Instalación gratis de llantas).</p>
+
+    <!--p>Para asesoría en compra de llantas comuníquese al <a href="tel:6014073033">(601) 407 3033</a> - <a
             href="tel:6013649734">(601) 364 9734.</a> <br> <b>Importante:</b> El servicio se presta por orden de
         turnos, solicítalo directamente en la sede de
-        tu interés.</p>
+        tu interés.</p-->
     <!-- INICIO PUNTOS DE INSTALACIÓN -->
     <div class="puntos-instalacion">
-        <p class="txt-16">¿En qué departamento te encuentras ubicado? selecciona el punto más cercano para la
-            instalación de tus
-            llantas:</p>
+        <k-title-underline type="center">
+            <h3>Asesoría - Venta Telefónica</h3>
+        </k-title-underline>
 
+        <div class="importante">
+            <i class="alk-icon-phone-contact"></i>
+            <p>Para asesoría en compra de llantas comuníquese al <a href="tel:6014073033"
+                    style="color: var(--primary-color1); text-decoration: underline;">(601) 407 3033</a> - <a
+                    href="tel:6013649734" style="color: var(--primary-color1); text-decoration: underline;">(601) 364
+                    9734.</a> <br> <b>Importante:</b> El servicio se presta por orden de
+                turnos, solicítalo directamente en la sede de
+                tu interés.</p>
+        </div>
+        <p class="txt-16">Nuestros puntos para la instalación de tus llantas:</p>
         <div class="puntos-instalacion__filters">
             <div class="puntos-instalacion__filters__departamento">
                 <label for="departamento">Departamento</label>
@@ -502,7 +649,7 @@
 </div>
 <div class="franja-marcas">
     <div class="container">
-        <k-title-underline type="center">
+        <k-title-underline type="center" style="margin-bottom: 36px;">
             <h3>Tus marcas de confianza en un solo lugar</h3>
         </k-title-underline>
         <k-slider arrows="false" desktop-items="7" mobile-items="3" peek="0" mobile-arrows="true"
@@ -542,7 +689,7 @@
     defer></script>
 <script type="module" crossorigin="anonymous"
     src="https://cdn.jsdelivr.net/gh/ux-alkosto/puntos-instalacion-llantas@1.0.21/dist/common/js/instalacion.js">
-</script>
+    </script>
 <script>
     const appConfig = {
         jsonFile: 'https://cdn.jsdelivr.net/gh/ux-alkosto/puntos-instalacion-llantas@1.0.20/dist/alkosto/json/puntos-instalacion.json',
