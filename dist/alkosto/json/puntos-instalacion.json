@@ -210,17 +210,7 @@
             "areaCode": "2",
             "viewMap": "https://www.google.com/maps/place/Alkosto+Cali+Norte/@3.4338072,-76.5591444,13z/data=!4m6!3m5!1s0x8e30a97ac39e56c3:0xaf6adf231a44a038!8m2!3d3.4822089!4d-76.4978896!16s%2Fg%2F11sbwt90yt"
         },
-        "cartagena-01": {
-            "name": "CSA Cartagena",
-            "address": "Av El Lago No. 17 - 214, Al frente del Complejo Banquetas",
-            "lat": "10.4130813",
-            "lng": "-75.5307024",
-            "schedule": ["Lun a Vie de 8:00 a.m - 5:00 p.m", "Sab de 8:00 a.m - 1:00 p.m"],
-            "phone": ["3282105", "6661212"],
-            "cell": ["3183519648"],
-            "areaCode": "5",
-            "viewMap": "https://www.google.com/maps/search/Av.+El+Lago,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar/@10.4130813,-75.5307024,17z/data=!3m1!4b1?hl=es"
-        },
+        
         "cucuta-01": {
             "name": "CSA Cúcuta",
             "address": "Dg Santander No. 4E - 95, Lc 104, Antigua Serviteca Rosetal",
@@ -360,7 +350,7 @@
                 "todos": {
                     "areaCode": "",
                     "name": "Todos",
-                    "puntos": ["bogota-01", "bogota-02", "bogota-03", "bogota-04", "bogota-05","bogota-07","bogota-08","bogota-09","bogota-10", "floridablanca-01", "cali-01", "cali-02", "cali-03", "cali-04", "cali-05", "cali-06","cali-07", "cartagena-01", "cucuta-01", "barranquilla-01", "duitama-01","fusagasuga-01", "ibague-01", "medellin-01", "medellin-02", "medellin-03", "pereira-01", "sincelejo-01", "valledupar-01", "villavicencio-01", "yopal-01"]
+                    "puntos": ["bogota-01", "bogota-02", "bogota-03", "bogota-04", "bogota-05","bogota-07","bogota-08","bogota-09","bogota-10", "floridablanca-01", "cali-01", "cali-02", "cali-03", "cali-04", "cali-05", "cali-06","cali-07","cucuta-01", "barranquilla-01", "duitama-01","fusagasuga-01", "ibague-01", "medellin-01", "medellin-02", "medellin-03", "pereira-01", "sincelejo-01", "valledupar-01", "villavicencio-01", "yopal-01"]
                 }
             }
         },
@@ -381,16 +371,6 @@
                     "areaCode": 5,
                     "name": "Barranquilla",
                     "puntos": ["barranquilla-01", "barranquilla-02"]
-                }
-            }
-        },
-        "bolivar": {
-            "name": "Bolívar",
-            "cities": {
-                "cartagena": {
-                    "areaCode": 5,
-                    "name": "Cartagena",
-                    "puntos": ["cartagena-01"]
                 }
             }
         },
