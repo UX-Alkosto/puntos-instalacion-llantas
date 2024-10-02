@@ -5,7 +5,7 @@
             "address": "Av Cr 68 No. 72 - 43",
             "lat": "4.6798436",
             "lng": "-74.0904711",
-            "schedule": ["Lun a Sab de 8:00 a.m - 8:00 p.m (Martes 8:00 am a 6:30 pm)", "Dom y Fes de 8:00 a.m - 7:00 p.m"],
+            "schedule": ["Lun a Sab de 8:00 a.m - 8:00 p.m (Martes 8:00 am a 5:30 pm)", "Dom y Fes de 8:00 a.m - 7:00 p.m"],
             "cell": ["3187069510"],
             "areaCode": "1",
             "viewMap": "https://www.google.com/maps/place/Alkosto+Avenida+68/@4.6798436,-74.0904711,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9b1baf5b732f:0xaf7808bcf4904255!8m2!3d4.6798383!4d-74.085863!16s%2Fg%2F1vxvjxhq?coh=178572&entry=tt&shorturl=1"
@@ -35,7 +35,7 @@
             "address": "Av Boyaca # 12b-18 Centro Comercial El Edén",
             "lat": "4.6472333",
             "lng": "-74.1308688",
-            "schedule": ["Lun a Vie de 9:00 a.m - 6:00 p.m","Sab de 9:00 a.m - 7:00 p.m", "Dom y Fes de 9:00 a.m - 6:00 p.m"],
+            "schedule": ["Lun a Vie de 10:00 a.m - 6:00 p.m","Sab de 9:00 a.m - 7:00 p.m", "Dom y Fes de 9:00 a.m - 6:00 p.m"],
             "cell": ["3142954785"],
             "areaCode": "1",
             "viewMap": "https://www.google.com/maps/place/Alkosto+El+Ed%C3%A9n,+Av.+Boyac%C3%A1+%2315-98+Local+1-102+y+2+%E2%80%93+116,+Bogot%C3%A1/data=!4m2!3m1!1s0x8e3f9d3ece2dc47f:0xc1648e7c95f7ef1c?utm_source=mstt_1&entry=gps&g_ep=CAESCTExLjc1LjMwMhgAIIgnKgBCAkNP"
