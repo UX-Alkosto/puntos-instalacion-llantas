@@ -82,17 +82,7 @@
             "areaCode": "1",
             "viewMap": "https://www.google.com/maps/search/Av+Boyac%C3%A1+No+39+-+92+Sur/@4.5995737,-74.150333,15z/data=!3m1!4b1"
         },
-        "bogota-09": {
-            "name": "Paloquemao",
-            "address": "Cl 15 No 25 – 35",
-            "lat": "4.6120874",
-            "lng": "-74.0900629",
-            "schedule": ["Lun a Vie de 8:00 a.m - 5:00 p.m", "Sab de 9:00 a.m - 4:00 p.m"],
-            "phone": ["3282105", "2530050"],
-            "cell": ["3152352300"],
-            "areaCode": "1",
-            "viewMap": "https://www.google.com/maps/place/Cl.+15+%2325-35,+Los+M%C3%A1rtires,+Bogot%C3%A1/@4.6120874,-74.0900629,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f99721d719607:0x8951e8f0f56141c2!8m2!3d4.6120821!4d-74.0878742"
-        },
+        
         "bogota-10": {
             "name": "Alkosto Venecia",
             "address": "Avda calle 45a sur # 51 - 90 piso cuarto",
