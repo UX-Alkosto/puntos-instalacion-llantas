@@ -340,7 +340,7 @@
                 "todos": {
                     "areaCode": "",
                     "name": "Todos",
-                    "puntos": ["bogota-01", "bogota-02", "bogota-03", "bogota-04", "bogota-05","bogota-07","bogota-08","bogota-09","bogota-10", "floridablanca-01", "cali-01", "cali-02", "cali-03", "cali-04", "cali-05", "cali-06","cali-07","cucuta-01", "barranquilla-01", "duitama-01","fusagasuga-01", "ibague-01", "medellin-01", "medellin-02", "medellin-03", "pereira-01", "sincelejo-01", "valledupar-01", "villavicencio-01", "yopal-01"]
+                    "puntos": ["bogota-01", "bogota-02", "bogota-03", "bogota-04", "bogota-05","bogota-07","bogota-08","bogota-10", "floridablanca-01", "cali-01", "cali-02", "cali-03", "cali-04", "cali-05", "cali-06","cali-07","cucuta-01", "barranquilla-01", "duitama-01","fusagasuga-01", "ibague-01", "medellin-01", "medellin-02", "medellin-03", "pereira-01", "sincelejo-01", "valledupar-01", "villavicencio-01", "yopal-01"]
                 }
             }
         },
@@ -400,7 +400,7 @@
                 "bogota": {
                     "areaCode": 1,
                     "name": "Bogotá D.C.",
-                    "puntos": ["bogota-01", "bogota-02", "bogota-03", "bogota-04", "bogota-05", "bogota-07", "bogota-08", "bogota-09","bogota-10"]
+                    "puntos": ["bogota-01", "bogota-02", "bogota-03", "bogota-04", "bogota-05", "bogota-07", "bogota-08", "bogota-10"]
                 },
                 "fusagasuga": {
                     "areaCode": 1,
