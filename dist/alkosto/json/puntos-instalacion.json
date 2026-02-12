@@ -86,13 +86,24 @@
         "bogota-10": {
             "name": "Alkosto Venecia",
             "address": "Avda calle 45a sur # 51 - 90 piso cuarto",
+            "lat": "4.7122946",
+            "lng": "-74.2320607",
+            "schedule": ["Lun a Vie de 8:00 a.m - 6:30 p.m", "Sab de 8:00 a.m - 6:30 p.m", "Dom y Fes de 9:00 a.m - 5:30 p.m"],
+            "phone":["2478011"],
+            "cell": ["3112725840"],
+            "areaCode": "1",
+            "viewMap": "https://www.google.com/maps/place/MASTER+SPEED+VENECIA/@4.5962338,-74.139498,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9f6851748735:0x32757930010c22a5!8m2!3d4.5962338!4d-74.139498!16s%2Fg%2F11kjk9hn7f"
+        },
+        "bogota-11": {
+            "name": "Alkosto Mosquera",
+            "address": "Calle 3 #14a-16, Mosquera, Cundinamarca",
             "lat": "4.5962338",
             "lng": "-74.139498",
             "schedule": ["Lun a Vie de 8:00 a.m - 6:30 p.m", "Sab de 8:00 a.m - 6:30 p.m", "Dom y Fes de 9:00 a.m - 5:30 p.m"],
             "phone":["2478011"],
             "cell": ["3112725840"],
             "areaCode": "1",
-            "viewMap": "https://www.google.com/maps/place/MASTER+SPEED+VENECIA/@4.5962338,-74.139498,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9f6851748735:0x32757930010c22a5!8m2!3d4.5962338!4d-74.139498!16s%2Fg%2F11kjk9hn7f"
+            "viewMap": "https://maps.app.goo.gl/zK2Z269zqvu9MoK28"
         },
         "barranquilla-01": {
             "name": "Alkosto Barranquilla",
@@ -340,7 +351,7 @@
                 "todos": {
                     "areaCode": "",
                     "name": "Todos",
-                    "puntos": ["bogota-01", "bogota-02", "bogota-03", "bogota-04", "bogota-05","bogota-07","bogota-08","bogota-10", "floridablanca-01", "cali-01", "cali-02", "cali-03", "cali-04", "cali-05", "cali-06","cali-07","cucuta-01", "barranquilla-01", "duitama-01","fusagasuga-01", "ibague-01", "medellin-01", "medellin-02", "medellin-03", "pereira-01", "sincelejo-01", "valledupar-01", "villavicencio-01", "yopal-01"]
+                    "puntos": ["bogota-01", "bogota-02", "bogota-03", "bogota-04", "bogota-05","bogota-07","bogota-08","bogota-10","bogota-11", "floridablanca-01", "cali-01", "cali-02", "cali-03", "cali-04", "cali-05", "cali-06","cali-07","cucuta-01", "barranquilla-01", "duitama-01","fusagasuga-01", "ibague-01", "medellin-01", "medellin-02", "medellin-03", "pereira-01", "sincelejo-01", "valledupar-01", "villavicencio-01", "yopal-01"]
                 }
             }
         },
@@ -400,7 +411,7 @@
                 "bogota": {
                     "areaCode": 1,
                     "name": "Bogotá D.C.",
-                    "puntos": ["bogota-01", "bogota-02", "bogota-03", "bogota-04", "bogota-05", "bogota-07", "bogota-08", "bogota-10"]
+                    "puntos": ["bogota-01", "bogota-02", "bogota-03", "bogota-04", "bogota-05", "bogota-07", "bogota-08", "bogota-10","bogota-11"]
                 },
                 "fusagasuga": {
                     "areaCode": 1,
