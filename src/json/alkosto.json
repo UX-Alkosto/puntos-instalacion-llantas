@@ -308,26 +308,7 @@
             ],
             "areaCode":"2",
             "viewMap":"https://www.google.com/maps/place/Cl.+40+Nte.+%236A-45,+Cali,+Valle+del+Cauca/@3.4798387,-76.5289282,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a61f6565761d:0xf10c50f4ffc89fe!8m2!3d3.4798387!4d-76.5267395?hl=es"
-        },
-        "cartagena-01":{
-            "name":"CSA Cartagena",
-            "address": "Av El Lago No. 17 - 214, Al frente del Complejo Banquetas",
-            "lat": "10.4130813",
-            "lng": "-75.5307024",
-            "schedule": [
-                "Lun a Vie de 8:00 a.m - 5:00 p.m",
-                "Sab de 8:00 a.m - 1:00 p.m"
-            ],
-            "phone": [
-                "3282105",
-                "6661212"
-            ],
-            "cell": [
-                "3183519648"
-            ],
-            "areaCode":"5",
-            "viewMap":"https://www.google.com/maps/search/Av.+El+Lago,+Cartagena,+Provincia+de+Cartagena,+Bol%C3%ADvar/@10.4130813,-75.5307024,17z/data=!3m1!4b1?hl=es"
-        },
+        },        
         "cucuta-01":{
             "name":"CSA Cúcuta",
             "address": "Dg Santander No. 4E - 95, Lc 104, Antigua Serviteca Rosetal",
